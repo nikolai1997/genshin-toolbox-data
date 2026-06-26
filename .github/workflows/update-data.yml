@@ -52,6 +52,29 @@ jobs:
             git push
           fi
 
+      - name: Upload offline package to Jianguoyun
+        env:
+          JIANGUOYUN_USERNAME: ${{ secrets.JIANGUOYUN_USERNAME }}
+          JIANGUOYUN_APP_PASSWORD: ${{ secrets.JIANGUOYUN_APP_PASSWORD }}
+          JIANGUOYUN_WEBDAV_BASE_URL: https://dav.jianguoyun.com/dav/GenshinToolbox
+        run: |
+          if [ -z "$JIANGUOYUN_USERNAME" ] || [ -z "$JIANGUOYUN_APP_PASSWORD" ]; then
+            echo "Jianguoyun secrets are not configured; skipping offline package upload."
+            exit 0
+          fi
+
+          latest_package="$(ls -t data/releases/data-pack-*.zip | head -n 1)"
+          test -n "$latest_package"
+
+          curl --fail --silent --show-error \
+            --user "$JIANGUOYUN_USERNAME:$JIANGUOYUN_APP_PASSWORD" \
+            --request MKCOL "$JIANGUOYUN_WEBDAV_BASE_URL" || true
+
+          curl --fail --silent --show-error \
+            --user "$JIANGUOYUN_USERNAME:$JIANGUOYUN_APP_PASSWORD" \
+            --upload-file "$latest_package" \
+            "$JIANGUOYUN_WEBDAV_BASE_URL/data-pack-latest.zip"
+
       - name: Configure Pages
         uses: actions/configure-pages@v5
 
