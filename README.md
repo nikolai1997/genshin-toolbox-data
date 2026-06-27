@@ -1,14 +1,14 @@
-# genshin-toolbox-data
+# paimon-toolbox-data
 
-Public remote data for Genshin Toolbox.
+Public remote data for Paimon Toolbox.
 
 ## Endpoint
 
 App-facing manifest:
 
 ```txt
-https://nikolai1997.github.io/genshin-toolbox-data/manifest.json
-https://nikolai1997.github.io/genshin-toolbox-data/metadata.json
+https://nikolai1997.github.io/paimon-toolbox-data/manifest.json
+https://nikolai1997.github.io/paimon-toolbox-data/metadata.json
 ```
 
 ## Data Sources
