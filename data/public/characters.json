@@ -1,6 +1,7 @@
 [
   {
     "element": "冰",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Aloy.png",
     "id": 10000062,
     "materials": [
       "哀叙冰玉",
@@ -11,12 +12,14 @@
       "熔毁之刻"
     ],
     "name": "埃洛伊",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Aloy.png",
     "rarity": 105,
     "region": "枫丹",
     "weaponType": "法器"
   },
   {
     "element": "火",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Nicole.png",
     "id": 10000131,
     "materials": [
       "燃愿玛瑙",
@@ -27,12 +30,14 @@
       "赝作的树脂"
     ],
     "name": "尼可",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Nicole.png",
     "rarity": 5,
     "region": "魔女会",
     "weaponType": "双手剑"
   },
   {
     "element": "岩",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Linnea.png",
     "id": 10000130,
     "materials": [
       "坚牢黄玉",
@@ -43,12 +48,14 @@
       "异端的瓶剂"
     ],
     "name": "莉奈娅",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Linnea.png",
     "rarity": 5,
     "region": "冒险家协会",
     "weaponType": "法器"
   },
   {
     "element": "冰",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Lohen.png",
     "id": 10000129,
     "materials": [
       "哀叙冰玉",
@@ -59,12 +66,14 @@
       "升扬样本·骑士"
     ],
     "name": "洛恩",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Lohen.png",
     "rarity": 5,
     "region": "蒙德",
     "weaponType": "长柄武器"
   },
   {
     "element": "风",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Varka.png",
     "id": 10000128,
     "materials": [
       "自在松石",
@@ -75,12 +84,14 @@
       "升扬样本·战车"
     ],
     "name": "法尔伽",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Varka.png",
     "rarity": 5,
     "region": "蒙德",
     "weaponType": "弓"
   },
   {
     "element": "岩",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Zibai.png",
     "id": 10000126,
     "materials": [
       "坚牢黄玉",
@@ -91,12 +102,14 @@
       "升扬样本·王族"
     ],
     "name": "兹白",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Zibai.png",
     "rarity": 5,
     "region": "璃月港",
     "weaponType": "单手剑"
   },
   {
     "element": "水",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Columbina.png",
     "id": 10000125,
     "materials": [
       "涤净青金",
@@ -107,12 +120,14 @@
       "贤医的假面"
     ],
     "name": "哥伦比娅",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Columbina.png",
     "rarity": 5,
     "region": "银月之庭",
     "weaponType": "双手剑"
   },
   {
     "element": "火",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Durin.png",
     "id": 10000123,
     "materials": [
       "燃愿玛瑙",
@@ -123,12 +138,14 @@
       "蚀灭的阳焰"
     ],
     "name": "杜林",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Durin.png",
     "rarity": 5,
     "region": "蒙德",
     "weaponType": "单手剑"
   },
   {
     "element": "草",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Nefer.png",
     "id": 10000122,
     "materials": [
       "生长碧翡",
@@ -139,12 +156,14 @@
       "升扬样本·战车"
     ],
     "name": "奈芙尔",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Nefer.png",
     "rarity": 5,
     "region": "秘闻馆",
     "weaponType": "双手剑"
   },
   {
     "element": "雷",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Flins.png",
     "id": 10000120,
     "materials": [
       "最胜紫晶",
@@ -155,12 +174,14 @@
       "升扬样本·王族"
     ],
     "name": "菲林斯",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Flins.png",
     "rarity": 5,
     "region": "执灯人",
     "weaponType": "长柄武器"
   },
   {
     "element": "草",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Lauma.png",
     "id": 10000119,
     "materials": [
       "生长碧翡",
@@ -171,12 +192,14 @@
       "蚀灭的鳞羽"
     ],
     "name": "菈乌玛",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Lauma.png",
     "rarity": 5,
     "region": "霜月之子",
     "weaponType": "双手剑"
   },
   {
     "element": "雷",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Ineffa.png",
     "id": 10000116,
     "materials": [
       "最胜紫晶",
@@ -187,12 +210,14 @@
       "蚀灭的阳焰"
     ],
     "name": "伊涅芙",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Ineffa.png",
     "rarity": 5,
     "region": "叮铃哐啷蛋卷工坊",
     "weaponType": "长柄武器"
   },
   {
     "element": "冰",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_SkirkNew.png",
     "id": 10000114,
     "materials": [
       "哀叙冰玉",
@@ -203,12 +228,14 @@
       "升扬样本·骑士"
     ],
     "name": "丝柯克",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_SkirkNew.png",
     "rarity": 5,
     "region": "寰宇劫灭",
     "weaponType": "单手剑"
   },
   {
     "element": "冰",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Escoffier.png",
     "id": 10000112,
     "materials": [
       "哀叙冰玉",
@@ -219,12 +246,14 @@
       "蚀灭的灵犀"
     ],
     "name": "爱可菲",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Escoffier.png",
     "rarity": 5,
     "region": "至冬",
     "weaponType": "长柄武器"
   },
   {
     "element": "雷",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Varesa.png",
     "id": 10000111,
     "materials": [
       "最胜紫晶",
@@ -235,12 +264,14 @@
       "蚀灭的鳞羽"
     ],
     "name": "瓦雷莎",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Varesa.png",
     "rarity": 5,
     "region": "特特奥坎",
     "weaponType": "双手剑"
   },
   {
     "element": "风",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Mizuki.png",
     "id": 10000109,
     "materials": [
       "自在松石",
@@ -251,12 +282,14 @@
       "残火灯烛"
     ],
     "name": "梦见月瑞希",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Mizuki.png",
     "rarity": 5,
     "region": "稻妻",
     "weaponType": "双手剑"
   },
   {
     "element": "冰",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Citlali.png",
     "id": 10000107,
     "materials": [
       "哀叙冰玉",
@@ -267,12 +300,14 @@
       "否定裁断"
     ],
     "name": "茜特菈莉",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Citlali.png",
     "rarity": 5,
     "region": "米克特兰",
     "weaponType": "双手剑"
   },
   {
     "element": "火",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Mavuika.png",
     "id": 10000106,
     "materials": [
       "燃愿玛瑙",
@@ -283,12 +318,14 @@
       "蚀灭的灵犀"
     ],
     "name": "玛薇卡",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Mavuika.png",
     "rarity": 5,
     "region": "维茨特兰",
     "weaponType": "弓"
   },
   {
     "element": "风",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Chasca.png",
     "id": 10000104,
     "materials": [
       "自在松石",
@@ -299,12 +336,14 @@
       "丝织之羽"
     ],
     "name": "恰斯卡",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Chasca.png",
     "rarity": 5,
     "region": "特拉洛坎",
     "weaponType": "法器"
   },
   {
     "element": "岩",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Xilonen.png",
     "id": 10000103,
     "materials": [
       "坚牢黄玉",
@@ -315,12 +354,14 @@
       "无心的渊镜"
     ],
     "name": "希诺宁",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Xilonen.png",
     "rarity": 5,
     "region": "纳茨卡延",
     "weaponType": "单手剑"
   },
   {
     "element": "水",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Mualani.png",
     "id": 10000102,
     "materials": [
       "涤净青金",
@@ -331,12 +372,14 @@
       "无光质块"
     ],
     "name": "玛拉妮",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Mualani.png",
     "rarity": 5,
     "region": "梅兹特利",
     "weaponType": "双手剑"
   },
   {
     "element": "草",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Kinich.png",
     "id": 10000101,
     "materials": [
       "生长碧翡",
@@ -347,12 +390,14 @@
       "否定裁断"
     ],
     "name": "基尼奇",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Kinich.png",
     "rarity": 5,
     "region": "维茨特兰",
     "weaponType": "弓"
   },
   {
     "element": "草",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Emilie.png",
     "id": 10000099,
     "materials": [
       "生长碧翡",
@@ -363,12 +408,14 @@
       "丝织之羽"
     ],
     "name": "艾梅莉埃",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Emilie.png",
     "rarity": 5,
     "region": "至冬",
     "weaponType": "长柄武器"
   },
   {
     "element": "雷",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Clorinde.png",
     "id": 10000098,
     "materials": [
       "最胜紫晶",
@@ -379,12 +426,14 @@
       "亘古树海之一瞬"
     ],
     "name": "克洛琳德",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Clorinde.png",
     "rarity": 5,
     "region": "至冬",
     "weaponType": "单手剑"
   },
   {
     "element": "火",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Arlecchino.png",
     "id": 10000096,
     "materials": [
       "燃愿玛瑙",
@@ -395,12 +444,14 @@
       "残火灯烛"
     ],
     "name": "阿蕾奇诺",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Arlecchino.png",
     "rarity": 5,
     "region": "须弥",
     "weaponType": "长柄武器"
   },
   {
     "element": "水",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Sigewinne.png",
     "id": 10000095,
     "materials": [
       "涤净青金",
@@ -411,12 +462,14 @@
       "无光涡眼"
     ],
     "name": "希格雯",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Sigewinne.png",
     "rarity": 5,
     "region": "至冬",
     "weaponType": "法器"
   },
   {
     "element": "岩",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Chiori.png",
     "id": 10000094,
     "materials": [
       "坚牢黄玉",
@@ -427,12 +480,14 @@
       "无光丝线"
     ],
     "name": "千织",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Chiori.png",
     "rarity": 5,
     "region": "稻妻",
     "weaponType": "单手剑"
   },
   {
     "element": "风",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Liuyun.png",
     "id": 10000093,
     "materials": [
       "自在松石",
@@ -443,12 +498,14 @@
       "无光涡眼"
     ],
     "name": "闲云",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Liuyun.png",
     "rarity": 5,
     "region": "璃月",
     "weaponType": "双手剑"
   },
   {
     "element": "岩",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Navia.png",
     "id": 10000091,
     "materials": [
       "坚牢黄玉",
@@ -459,12 +516,14 @@
       "无光丝线"
     ],
     "name": "娜维娅",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Navia.png",
     "rarity": 5,
     "region": "至冬",
     "weaponType": "弓"
   },
   {
     "element": "水",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Furina.png",
     "id": 10000089,
     "materials": [
       "涤净青金",
@@ -475,12 +534,14 @@
       "无光质块"
     ],
     "name": "芙宁娜",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Furina.png",
     "rarity": 5,
     "region": "至冬",
     "weaponType": "单手剑"
   },
   {
     "element": "水",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Neuvillette.png",
     "id": 10000087,
     "materials": [
       "涤净青金",
@@ -491,12 +552,14 @@
       "亘古树海之一瞬"
     ],
     "name": "那维莱特",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Neuvillette.png",
     "rarity": 5,
     "region": "至冬",
     "weaponType": "双手剑"
   },
   {
     "element": "冰",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Wriothesley.png",
     "id": 10000086,
     "materials": [
       "哀叙冰玉",
@@ -507,12 +570,14 @@
       "原初绿洲之初绽"
     ],
     "name": "莱欧斯利",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Wriothesley.png",
     "rarity": 5,
     "region": "至冬",
     "weaponType": "双手剑"
   },
   {
     "element": "火",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Liney.png",
     "id": 10000084,
     "materials": [
       "燃愿玛瑙",
@@ -523,12 +588,14 @@
       "原初绿洲之初绽"
     ],
     "name": "林尼",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Liney.png",
     "rarity": 5,
     "region": "至冬",
     "weaponType": "法器"
   },
   {
     "element": "草",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Baizhuer.png",
     "id": 10000082,
     "materials": [
       "生长碧翡",
@@ -539,12 +606,14 @@
       "生长天地之蕨草"
     ],
     "name": "白术",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Baizhuer.png",
     "rarity": 5,
     "region": "璃月",
     "weaponType": "双手剑"
   },
   {
     "element": "火",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Dehya.png",
     "id": 10000079,
     "materials": [
       "燃愿玛瑙",
@@ -555,12 +624,14 @@
       "傀儡的悬丝"
     ],
     "name": "迪希雅",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Dehya.png",
     "rarity": 5,
     "region": "纳塔",
     "weaponType": "弓"
   },
   {
     "element": "草",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Alhatham.png",
     "id": 10000078,
     "materials": [
       "生长碧翡",
@@ -571,12 +642,14 @@
       "无心的渊镜"
     ],
     "name": "艾尔海森",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Alhatham.png",
     "rarity": 5,
     "region": "纳塔",
     "weaponType": "单手剑"
   },
   {
     "element": "风",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Wanderer.png",
     "id": 10000075,
     "materials": [
       "自在松石",
@@ -587,12 +660,14 @@
       "空行的虚铃"
     ],
     "name": "流浪者",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Wanderer.png",
     "rarity": 5,
     "region": "纳塔",
     "weaponType": "双手剑"
   },
   {
     "element": "草",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Nahida.png",
     "id": 10000073,
     "materials": [
       "生长碧翡",
@@ -603,12 +678,14 @@
       "傀儡的悬丝"
     ],
     "name": "纳西妲",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Nahida.png",
     "rarity": 5,
     "region": "纳塔",
     "weaponType": "双手剑"
   },
   {
     "element": "雷",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Cyno.png",
     "id": 10000071,
     "materials": [
       "最胜紫晶",
@@ -619,12 +696,14 @@
       "凶将之手眼"
     ],
     "name": "赛诺",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Cyno.png",
     "rarity": 5,
     "region": "纳塔",
     "weaponType": "长柄武器"
   },
   {
     "element": "水",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Nilou.png",
     "id": 10000070,
     "materials": [
       "涤净青金",
@@ -635,12 +714,14 @@
       "祸神之禊泪"
     ],
     "name": "妮露",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Nilou.png",
     "rarity": 5,
     "region": "纳塔",
     "weaponType": "单手剑"
   },
   {
     "element": "草",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Tighnari.png",
     "id": 10000069,
     "materials": [
       "生长碧翡",
@@ -651,12 +732,14 @@
       "万劫之真意"
     ],
     "name": "提纳里",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Tighnari.png",
     "rarity": 5,
     "region": "纳塔",
     "weaponType": "法器"
   },
   {
     "element": "水",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Ayato.png",
     "id": 10000066,
     "materials": [
       "涤净青金",
@@ -667,12 +750,14 @@
       "凶将之手眼"
     ],
     "name": "神里绫人",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Ayato.png",
     "rarity": 5,
     "region": "稻妻",
     "weaponType": "单手剑"
   },
   {
     "element": "冰",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Shenhe.png",
     "id": 10000063,
     "materials": [
       "哀叙冰玉",
@@ -683,12 +768,14 @@
       "狱火之蝶"
     ],
     "name": "申鹤",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Shenhe.png",
     "rarity": 5,
     "region": "璃月",
     "weaponType": "长柄武器"
   },
   {
     "element": "水",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Yelan.png",
     "id": 10000060,
     "materials": [
       "涤净青金",
@@ -699,12 +786,14 @@
       "鎏金之鳞"
     ],
     "name": "夜兰",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Yelan.png",
     "rarity": 5,
     "region": "璃月",
     "weaponType": "法器"
   },
   {
     "element": "雷",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Yae.png",
     "id": 10000058,
     "materials": [
       "最胜紫晶",
@@ -715,12 +804,14 @@
       "万劫之真意"
     ],
     "name": "八重神子",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Yae.png",
     "rarity": 5,
     "region": "稻妻",
     "weaponType": "双手剑"
   },
   {
     "element": "岩",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Itto.png",
     "id": 10000057,
     "materials": [
       "坚牢黄玉",
@@ -731,12 +822,14 @@
       "灰烬之心"
     ],
     "name": "荒泷一斗",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Itto.png",
     "rarity": 5,
     "region": "稻妻",
     "weaponType": "弓"
   },
   {
     "element": "水",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Kokomi.png",
     "id": 10000054,
     "materials": [
       "涤净青金",
@@ -747,12 +840,14 @@
       "狱火之蝶"
     ],
     "name": "珊瑚宫心海",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Kokomi.png",
     "rarity": 5,
     "region": "稻妻",
     "weaponType": "双手剑"
   },
   {
     "element": "雷",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Shougun.png",
     "id": 10000052,
     "materials": [
       "最胜紫晶",
@@ -763,12 +858,14 @@
       "熔毁之刻"
     ],
     "name": "雷电将军",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Shougun.png",
     "rarity": 5,
     "region": "稻妻",
     "weaponType": "长柄武器"
   },
   {
     "element": "冰",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Eula.png",
     "id": 10000051,
     "materials": [
       "哀叙冰玉",
@@ -779,12 +876,14 @@
       "龙王之冕"
     ],
     "name": "优菈",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Eula.png",
     "rarity": 5,
     "region": "蒙德",
     "weaponType": "弓"
   },
   {
     "element": "火",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Yoimiya.png",
     "id": 10000049,
     "materials": [
       "燃愿玛瑙",
@@ -795,12 +894,14 @@
       "龙王之冕"
     ],
     "name": "宵宫",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Yoimiya.png",
     "rarity": 5,
     "region": "稻妻",
     "weaponType": "法器"
   },
   {
     "element": "风",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Kazuha.png",
     "id": 10000047,
     "materials": [
       "自在松石",
@@ -811,12 +912,14 @@
       "鎏金之鳞"
     ],
     "name": "枫原万叶",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Kazuha.png",
     "rarity": 5,
     "region": "稻妻",
     "weaponType": "单手剑"
   },
   {
     "element": "火",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Hutao.png",
     "id": 10000046,
     "materials": [
       "燃愿玛瑙",
@@ -827,12 +930,14 @@
       "魔王之刃·残片"
     ],
     "name": "胡桃",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Hutao.png",
     "rarity": 5,
     "region": "璃月",
     "weaponType": "长柄武器"
   },
   {
     "element": "雷",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Keqing.png",
     "id": 10000042,
     "materials": [
       "最胜紫晶",
@@ -843,12 +948,14 @@
       "北风之环"
     ],
     "name": "刻晴",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Keqing.png",
     "rarity": 5,
     "region": "璃月",
     "weaponType": "单手剑"
   },
   {
     "element": "水",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Mona.png",
     "id": 10000041,
     "materials": [
       "涤净青金",
@@ -859,12 +966,14 @@
       "北风之环"
     ],
     "name": "莫娜",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Mona.png",
     "rarity": 5,
     "region": "蒙德",
     "weaponType": "双手剑"
   },
   {
     "element": "岩",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Albedo.png",
     "id": 10000038,
     "materials": [
       "坚牢黄玉",
@@ -875,12 +984,14 @@
       "吞天之鲸·只角"
     ],
     "name": "阿贝多",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Albedo.png",
     "rarity": 5,
     "region": "蒙德",
     "weaponType": "单手剑"
   },
   {
     "element": "冰",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Ganyu.png",
     "id": 10000037,
     "materials": [
       "哀叙冰玉",
@@ -891,12 +1002,14 @@
       "武炼之魂·孤影"
     ],
     "name": "甘雨",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Ganyu.png",
     "rarity": 5,
     "region": "璃月",
     "weaponType": "法器"
   },
   {
     "element": "冰",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Qiqi.png",
     "id": 10000035,
     "materials": [
       "哀叙冰玉",
@@ -907,12 +1020,14 @@
       "北风之尾"
     ],
     "name": "七七",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Qiqi.png",
     "rarity": 5,
     "region": "璃月",
     "weaponType": "单手剑"
   },
   {
     "element": "水",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Tartaglia.png",
     "id": 10000033,
     "materials": [
       "涤净青金",
@@ -923,12 +1038,14 @@
       "魔王之刃·残片"
     ],
     "name": "达达利亚",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Tartaglia.png",
     "rarity": 5,
     "region": "须弥",
     "weaponType": "法器"
   },
   {
     "element": "岩",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Zhongli.png",
     "id": 10000030,
     "materials": [
       "坚牢黄玉",
@@ -939,12 +1056,14 @@
       "吞天之鲸·只角"
     ],
     "name": "钟离",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Zhongli.png",
     "rarity": 5,
     "region": "璃月",
     "weaponType": "长柄武器"
   },
   {
     "element": "火",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Klee.png",
     "id": 10000029,
     "materials": [
       "燃愿玛瑙",
@@ -955,12 +1074,14 @@
       "北风之环"
     ],
     "name": "可莉",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Klee.png",
     "rarity": 5,
     "region": "蒙德",
     "weaponType": "双手剑"
   },
   {
     "element": "风",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Xiao.png",
     "id": 10000026,
     "materials": [
       "自在松石",
@@ -971,12 +1092,14 @@
       "武炼之魂·孤影"
     ],
     "name": "魈",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Xiao.png",
     "rarity": 5,
     "region": "璃月",
     "weaponType": "长柄武器"
   },
   {
     "element": "风",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Venti.png",
     "id": 10000022,
     "materials": [
       "自在松石",
@@ -987,12 +1110,14 @@
       "北风之尾"
     ],
     "name": "温迪",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Venti.png",
     "rarity": 5,
     "region": "蒙德",
     "weaponType": "法器"
   },
   {
     "element": "火",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Diluc.png",
     "id": 10000016,
     "materials": [
       "燃愿玛瑙",
@@ -1003,12 +1128,14 @@
       "东风之翎"
     ],
     "name": "迪卢克",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Diluc.png",
     "rarity": 5,
     "region": "蒙德",
     "weaponType": "弓"
   },
   {
     "element": "风",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Qin.png",
     "id": 10000003,
     "materials": [
       "自在松石",
@@ -1019,12 +1146,14 @@
       "东风之翎"
     ],
     "name": "琴",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Qin.png",
     "rarity": 5,
     "region": "蒙德",
     "weaponType": "单手剑"
   },
   {
     "element": "冰",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Ayaka.png",
     "id": 10000002,
     "materials": [
       "哀叙冰玉",
@@ -1035,12 +1164,14 @@
       "血玉之枝"
     ],
     "name": "神里绫华",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Ayaka.png",
     "rarity": 5,
     "region": "稻妻",
     "weaponType": "单手剑"
   },
   {
     "element": "风",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Prune.png",
     "id": 10000132,
     "materials": [
       "自在松石",
@@ -1051,12 +1182,14 @@
       "贤医的假面"
     ],
     "name": "布伦妮",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Prune.png",
     "rarity": 4,
     "region": "蒙德",
     "weaponType": "双手剑"
   },
   {
     "element": "岩",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Illuga.png",
     "id": 10000127,
     "materials": [
       "坚牢黄玉",
@@ -1067,12 +1200,14 @@
       "蚀灭的灵犀"
     ],
     "name": "叶洛亚",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Illuga.png",
     "rarity": 4,
     "region": "执灯人",
     "weaponType": "长柄武器"
   },
   {
     "element": "风",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Jahoda.png",
     "id": 10000124,
     "materials": [
       "自在松石",
@@ -1083,12 +1218,14 @@
       "升扬样本·骑士"
     ],
     "name": "雅珂达",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Jahoda.png",
     "rarity": 4,
     "region": "秘闻馆",
     "weaponType": "法器"
   },
   {
     "element": "水",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Aino.png",
     "id": 10000121,
     "materials": [
       "涤净青金",
@@ -1099,12 +1236,14 @@
       "丝织之羽"
     ],
     "name": "爱诺",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Aino.png",
     "rarity": 4,
     "region": "叮铃哐啷蛋卷工坊",
     "weaponType": "弓"
   },
   {
     "element": "水",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Dahlia.png",
     "id": 10000115,
     "materials": [
       "涤净青金",
@@ -1115,12 +1254,14 @@
       "蚀灭的鳞羽"
     ],
     "name": "塔利雅",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Dahlia.png",
     "rarity": 4,
     "region": "蒙德",
     "weaponType": "单手剑"
   },
   {
     "element": "风",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Ifa.png",
     "id": 10000113,
     "materials": [
       "自在松石",
@@ -1131,12 +1272,14 @@
       "升扬样本·战车"
     ],
     "name": "伊法",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Ifa.png",
     "rarity": 4,
     "region": "特拉洛坎",
     "weaponType": "双手剑"
   },
   {
     "element": "雷",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Iansan.png",
     "id": 10000110,
     "materials": [
       "最胜紫晶",
@@ -1147,12 +1290,14 @@
       "否定裁断"
     ],
     "name": "伊安珊",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Iansan.png",
     "rarity": 4,
     "region": "特特奥坎",
     "weaponType": "长柄武器"
   },
   {
     "element": "风",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Lanyan.png",
     "id": 10000108,
     "materials": [
       "自在松石",
@@ -1163,12 +1308,14 @@
       "蚀灭的阳焰"
     ],
     "name": "蓝砚",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Lanyan.png",
     "rarity": 4,
     "region": "璃月",
     "weaponType": "双手剑"
   },
   {
     "element": "雷",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Olorun.png",
     "id": 10000105,
     "materials": [
       "最胜紫晶",
@@ -1179,12 +1326,14 @@
       "无光丝线"
     ],
     "name": "欧洛伦",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Olorun.png",
     "rarity": 4,
     "region": "米克特兰",
     "weaponType": "法器"
   },
   {
     "element": "岩",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Kachina.png",
     "id": 10000100,
     "materials": [
       "坚牢黄玉",
@@ -1195,12 +1344,14 @@
       "残火灯烛"
     ],
     "name": "卡齐娜",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Kachina.png",
     "rarity": 4,
     "region": "纳茨卡延",
     "weaponType": "长柄武器"
   },
   {
     "element": "雷",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Sethos.png",
     "id": 10000097,
     "materials": [
       "最胜紫晶",
@@ -1211,12 +1362,14 @@
       "空行的虚铃"
     ],
     "name": "赛索斯",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Sethos.png",
     "rarity": 4,
     "region": "纳塔",
     "weaponType": "法器"
   },
   {
     "element": "火",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Gaming.png",
     "id": 10000092,
     "materials": [
       "燃愿玛瑙",
@@ -1227,12 +1380,14 @@
       "无光质块"
     ],
     "name": "嘉明",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Gaming.png",
     "rarity": 4,
     "region": "璃月",
     "weaponType": "弓"
   },
   {
     "element": "火",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Chevreuse.png",
     "id": 10000090,
     "materials": [
       "燃愿玛瑙",
@@ -1243,12 +1398,14 @@
       "无光涡眼"
     ],
     "name": "夏沃蕾",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Chevreuse.png",
     "rarity": 4,
     "region": "至冬",
     "weaponType": "长柄武器"
   },
   {
     "element": "冰",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Charlotte.png",
     "id": 10000088,
     "materials": [
       "哀叙冰玉",
@@ -1259,12 +1416,14 @@
       "无光丝线"
     ],
     "name": "夏洛蒂",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Charlotte.png",
     "rarity": 4,
     "region": "至冬",
     "weaponType": "双手剑"
   },
   {
     "element": "冰",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Freminet.png",
     "id": 10000085,
     "materials": [
       "哀叙冰玉",
@@ -1275,12 +1434,14 @@
       "生长天地之蕨草"
     ],
     "name": "菲米尼",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Freminet.png",
     "rarity": 4,
     "region": "至冬",
     "weaponType": "弓"
   },
   {
     "element": "风",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Linette.png",
     "id": 10000083,
     "materials": [
       "自在松石",
@@ -1291,12 +1452,14 @@
       "亘古树海之一瞬"
     ],
     "name": "琳妮特",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Linette.png",
     "rarity": 4,
     "region": "至冬",
     "weaponType": "单手剑"
   },
   {
     "element": "草",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Kaveh.png",
     "id": 10000081,
     "materials": [
       "生长碧翡",
@@ -1307,12 +1470,14 @@
       "原初绿洲之初绽"
     ],
     "name": "卡维",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Kaveh.png",
     "rarity": 4,
     "region": "纳塔",
     "weaponType": "弓"
   },
   {
     "element": "冰",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Mika.png",
     "id": 10000080,
     "materials": [
       "哀叙冰玉",
@@ -1323,12 +1488,14 @@
       "无心的渊镜"
     ],
     "name": "米卡",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Mika.png",
     "rarity": 4,
     "region": "蒙德",
     "weaponType": "长柄武器"
   },
   {
     "element": "草",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Yaoyao.png",
     "id": 10000077,
     "materials": [
       "生长碧翡",
@@ -1339,12 +1506,14 @@
       "空行的虚铃"
     ],
     "name": "瑶瑶",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Yaoyao.png",
     "rarity": 4,
     "region": "璃月",
     "weaponType": "长柄武器"
   },
   {
     "element": "风",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Faruzan.png",
     "id": 10000076,
     "materials": [
       "自在松石",
@@ -1355,12 +1524,14 @@
       "傀儡的悬丝"
     ],
     "name": "珐露珊",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Faruzan.png",
     "rarity": 4,
     "region": "纳塔",
     "weaponType": "法器"
   },
   {
     "element": "冰",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Layla.png",
     "id": 10000074,
     "materials": [
       "哀叙冰玉",
@@ -1371,12 +1542,14 @@
       "无心的渊镜"
     ],
     "name": "莱依拉",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Layla.png",
     "rarity": 4,
     "region": "纳塔",
     "weaponType": "单手剑"
   },
   {
     "element": "水",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Candace.png",
     "id": 10000072,
     "materials": [
       "涤净青金",
@@ -1387,12 +1560,14 @@
       "祸神之禊泪"
     ],
     "name": "坎蒂丝",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Candace.png",
     "rarity": 4,
     "region": "纳塔",
     "weaponType": "长柄武器"
   },
   {
     "element": "雷",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Dori.png",
     "id": 10000068,
     "materials": [
       "最胜紫晶",
@@ -1403,12 +1578,14 @@
       "血玉之枝"
     ],
     "name": "多莉",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Dori.png",
     "rarity": 4,
     "region": "纳塔",
     "weaponType": "弓"
   },
   {
     "element": "草",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Collei.png",
     "id": 10000067,
     "materials": [
       "生长碧翡",
@@ -1419,12 +1596,14 @@
       "祸神之禊泪"
     ],
     "name": "柯莱",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Collei.png",
     "rarity": 4,
     "region": "纳塔",
     "weaponType": "法器"
   },
   {
     "element": "雷",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Shinobu.png",
     "id": 10000065,
     "materials": [
       "最胜紫晶",
@@ -1435,12 +1614,14 @@
       "祸神之禊泪"
     ],
     "name": "久岐忍",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Shinobu.png",
     "rarity": 4,
     "region": "稻妻",
     "weaponType": "单手剑"
   },
   {
     "element": "岩",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Yunjin.png",
     "id": 10000064,
     "materials": [
       "坚牢黄玉",
@@ -1451,12 +1632,14 @@
       "灰烬之心"
     ],
     "name": "云堇",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Yunjin.png",
     "rarity": 4,
     "region": "璃月",
     "weaponType": "长柄武器"
   },
   {
     "element": "草",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Momoka.png",
     "id": 10000061,
     "materials": [
       "生长碧翡",
@@ -1467,12 +1650,14 @@
       "亘古树海之一瞬"
     ],
     "name": "绮良良",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Momoka.png",
     "rarity": 4,
     "region": "稻妻",
     "weaponType": "单手剑"
   },
   {
     "element": "风",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Heizo.png",
     "id": 10000059,
     "materials": [
       "自在松石",
@@ -1483,12 +1668,14 @@
       "万劫之真意"
     ],
     "name": "鹿野院平藏",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Heizo.png",
     "rarity": 4,
     "region": "稻妻",
     "weaponType": "双手剑"
   },
   {
     "element": "雷",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Sara.png",
     "id": 10000056,
     "materials": [
       "最胜紫晶",
@@ -1499,12 +1686,14 @@
       "灰烬之心"
     ],
     "name": "九条裟罗",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Sara.png",
     "rarity": 4,
     "region": "稻妻",
     "weaponType": "法器"
   },
   {
     "element": "岩",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Gorou.png",
     "id": 10000055,
     "materials": [
       "坚牢黄玉",
@@ -1515,12 +1704,14 @@
       "熔毁之刻"
     ],
     "name": "五郎",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Gorou.png",
     "rarity": 4,
     "region": "稻妻",
     "weaponType": "法器"
   },
   {
     "element": "风",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Sayu.png",
     "id": 10000053,
     "materials": [
       "自在松石",
@@ -1531,12 +1722,14 @@
       "鎏金之鳞"
     ],
     "name": "早柚",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Sayu.png",
     "rarity": 4,
     "region": "稻妻",
     "weaponType": "弓"
   },
   {
     "element": "火",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Tohma.png",
     "id": 10000050,
     "materials": [
       "燃愿玛瑙",
@@ -1547,12 +1740,14 @@
       "狱火之蝶"
     ],
     "name": "托马",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Tohma.png",
     "rarity": 4,
     "region": "稻妻",
     "weaponType": "长柄武器"
   },
   {
     "element": "火",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Feiyan.png",
     "id": 10000048,
     "materials": [
       "燃愿玛瑙",
@@ -1563,12 +1758,14 @@
       "血玉之枝"
     ],
     "name": "烟绯",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Feiyan.png",
     "rarity": 4,
     "region": "璃月",
     "weaponType": "双手剑"
   },
   {
     "element": "冰",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Rosaria.png",
     "id": 10000045,
     "materials": [
       "哀叙冰玉",
@@ -1579,12 +1776,14 @@
       "武炼之魂·孤影"
     ],
     "name": "罗莎莉亚",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Rosaria.png",
     "rarity": 4,
     "region": "蒙德",
     "weaponType": "长柄武器"
   },
   {
     "element": "火",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Xinyan.png",
     "id": 10000044,
     "materials": [
       "燃愿玛瑙",
@@ -1595,12 +1794,14 @@
       "吞天之鲸·只角"
     ],
     "name": "辛焱",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Xinyan.png",
     "rarity": 4,
     "region": "璃月",
     "weaponType": "弓"
   },
   {
     "element": "风",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Sucrose.png",
     "id": 10000043,
     "materials": [
       "自在松石",
@@ -1611,12 +1812,14 @@
       "北风的魂匣"
     ],
     "name": "砂糖",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Sucrose.png",
     "rarity": 4,
     "region": "蒙德",
     "weaponType": "双手剑"
   },
   {
     "element": "冰",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Diona.png",
     "id": 10000039,
     "materials": [
       "哀叙冰玉",
@@ -1627,12 +1830,14 @@
       "魔王之刃·残片"
     ],
     "name": "迪奥娜",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Diona.png",
     "rarity": 4,
     "region": "蒙德",
     "weaponType": "法器"
   },
   {
     "element": "冰",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Chongyun.png",
     "id": 10000036,
     "materials": [
       "哀叙冰玉",
@@ -1643,12 +1848,14 @@
       "东风的吐息"
     ],
     "name": "重云",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Chongyun.png",
     "rarity": 4,
     "region": "璃月",
     "weaponType": "弓"
   },
   {
     "element": "岩",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Noel.png",
     "id": 10000034,
     "materials": [
       "坚牢黄玉",
@@ -1659,12 +1866,14 @@
       "东风之爪"
     ],
     "name": "诺艾尔",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Noel.png",
     "rarity": 4,
     "region": "蒙德",
     "weaponType": "弓"
   },
   {
     "element": "火",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Bennett.png",
     "id": 10000032,
     "materials": [
       "燃愿玛瑙",
@@ -1675,12 +1884,14 @@
       "东风之翎"
     ],
     "name": "班尼特",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Bennett.png",
     "rarity": 4,
     "region": "蒙德",
     "weaponType": "单手剑"
   },
   {
     "element": "雷",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Fischl.png",
     "id": 10000031,
     "materials": [
       "最胜紫晶",
@@ -1691,12 +1902,14 @@
       "北风的魂匣"
     ],
     "name": "菲谢尔",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Fischl.png",
     "rarity": 4,
     "region": "蒙德",
     "weaponType": "法器"
   },
   {
     "element": "岩",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Ningguang.png",
     "id": 10000027,
     "materials": [
       "坚牢黄玉",
@@ -1707,12 +1920,14 @@
       "北风的魂匣"
     ],
     "name": "凝光",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Ningguang.png",
     "rarity": 4,
     "region": "璃月",
     "weaponType": "双手剑"
   },
   {
     "element": "水",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Xingqiu.png",
     "id": 10000025,
     "materials": [
       "涤净青金",
@@ -1723,12 +1938,14 @@
       "北风之尾"
     ],
     "name": "行秋",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Xingqiu.png",
     "rarity": 4,
     "region": "璃月",
     "weaponType": "单手剑"
   },
   {
     "element": "雷",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Beidou.png",
     "id": 10000024,
     "materials": [
       "最胜紫晶",
@@ -1739,12 +1956,14 @@
       "东风的吐息"
     ],
     "name": "北斗",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Beidou.png",
     "rarity": 4,
     "region": "璃月",
     "weaponType": "弓"
   },
   {
     "element": "火",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Xiangling.png",
     "id": 10000023,
     "materials": [
       "燃愿玛瑙",
@@ -1755,12 +1974,14 @@
       "东风之爪"
     ],
     "name": "香菱",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Xiangling.png",
     "rarity": 4,
     "region": "璃月",
     "weaponType": "长柄武器"
   },
   {
     "element": "火",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Ambor.png",
     "id": 10000021,
     "materials": [
       "燃愿玛瑙",
@@ -1771,12 +1992,14 @@
       "东风的吐息"
     ],
     "name": "安柏",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Ambor.png",
     "rarity": 4,
     "region": "蒙德",
     "weaponType": "法器"
   },
   {
     "element": "雷",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Razor.png",
     "id": 10000020,
     "materials": [
       "最胜紫晶",
@@ -1787,12 +2010,14 @@
       "东风之爪"
     ],
     "name": "雷泽",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Razor.png",
     "rarity": 4,
     "region": "蒙德",
     "weaponType": "弓"
   },
   {
     "element": "冰",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Kaeya.png",
     "id": 10000015,
     "materials": [
       "哀叙冰玉",
@@ -1803,12 +2028,14 @@
       "北风的魂匣"
     ],
     "name": "凯亚",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Kaeya.png",
     "rarity": 4,
     "region": "蒙德",
     "weaponType": "单手剑"
   },
   {
     "element": "水",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Barbara.png",
     "id": 10000014,
     "materials": [
       "涤净青金",
@@ -1819,12 +2046,14 @@
       "北风之环"
     ],
     "name": "芭芭拉",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Barbara.png",
     "rarity": 4,
     "region": "蒙德",
     "weaponType": "双手剑"
   },
   {
     "element": "雷",
+    "iconURL": "https://enka.network/ui/UI_AvatarIcon_Lisa.png",
     "id": 10000006,
     "materials": [
       "最胜紫晶",
@@ -1835,6 +2064,7 @@
       "东风之爪"
     ],
     "name": "丽莎",
+    "portraitURL": "https://enka.network/ui/UI_AvatarIcon_Side_Lisa.png",
     "rarity": 4,
     "region": "蒙德",
     "weaponType": "双手剑"

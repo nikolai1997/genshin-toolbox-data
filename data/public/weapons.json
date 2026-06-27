@@ -1,5 +1,6 @@
 [
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Bow_Alkonost.png",
     "id": 15516,
     "materials": [
       "长夜燧火的烈辉",
@@ -12,6 +13,7 @@
     "type": "法器"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Bow_Arianna.png",
     "id": 15515,
     "materials": [
       "狮牙斗士的理想",
@@ -24,6 +26,7 @@
     "type": "法器"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Bow_Qoyllorsnova.png",
     "id": 15514,
     "materials": [
       "神合秘烟的启示",
@@ -36,6 +39,7 @@
     "type": "法器"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Bow_Arcdange.png",
     "id": 15513,
     "materials": [
       "纯圣露滴的真粹",
@@ -48,6 +52,7 @@
     "type": "法器"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Bow_Pledge.png",
     "id": 15512,
     "materials": [
       "悠古弦音的回响",
@@ -60,6 +65,7 @@
     "type": "法器"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Bow_Ayus.png",
     "id": 15511,
     "materials": [
       "烈日威权的旧日",
@@ -72,6 +78,7 @@
     "type": "法器"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Bow_Narukami.png",
     "id": 15509,
     "materials": [
       "鸣神御灵的勇武",
@@ -84,6 +91,7 @@
     "type": "法器"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Bow_Kirin.png",
     "id": 15508,
     "materials": [
       "孤云寒林的神体",
@@ -96,6 +104,7 @@
     "type": "法器"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Bow_Worldbane.png",
     "id": 15507,
     "materials": [
       "今昔剧画之鬼人",
@@ -108,6 +117,7 @@
     "type": "法器"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Bow_Widsith.png",
     "id": 15503,
     "materials": [
       "凛风奔狼的怀乡",
@@ -120,6 +130,7 @@
     "type": "法器"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Bow_Amos.png",
     "id": 15502,
     "materials": [
       "狮牙斗士的理想",
@@ -132,6 +143,7 @@
     "type": "法器"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Bow_Dvalin.png",
     "id": 15501,
     "materials": [
       "凛风奔狼的怀乡",
@@ -144,6 +156,7 @@
     "type": "法器"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Catalyst_FairyGarden.png",
     "id": 14523,
     "materials": [
       "奇巧秘器的真愿",
@@ -156,6 +169,7 @@
     "type": "双手剑"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Catalyst_Brisingamen.png",
     "id": 14522,
     "materials": [
       "终北遗嗣的煌熠",
@@ -168,6 +182,7 @@
     "type": "双手剑"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Catalyst_Sistrum.png",
     "id": 14521,
     "materials": [
       "绿洲花园的真谛",
@@ -180,6 +195,7 @@
     "type": "双手剑"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Catalyst_MenulisRing.png",
     "id": 14520,
     "materials": [
       "奇巧秘器的真愿",
@@ -192,6 +208,7 @@
     "type": "双手剑"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Catalyst_VaresaTransformer.png",
     "id": 14519,
     "materials": [
       "谵妄圣主的神面",
@@ -204,6 +221,7 @@
     "type": "双手剑"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Catalyst_SakuraFan.png",
     "id": 14518,
     "materials": [
       "鸣神御灵的勇武",
@@ -216,6 +234,7 @@
     "type": "双手剑"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Catalyst_Figurines.png",
     "id": 14517,
     "materials": [
       "谵妄圣主的神面",
@@ -228,6 +247,7 @@
     "type": "双手剑"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Catalyst_MechaPufferfish.png",
     "id": 14516,
     "materials": [
       "贡祭炽心的荣膺",
@@ -240,6 +260,7 @@
     "type": "双手剑"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Catalyst_MountainGale.png",
     "id": 14515,
     "materials": [
       "雾海云间的转还",
@@ -252,6 +273,7 @@
     "type": "双手剑"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Catalyst_Iudex.png",
     "id": 14514,
     "materials": [
       "纯圣露滴的真粹",
@@ -264,6 +286,7 @@
     "type": "双手剑"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Catalyst_Wheatley.png",
     "id": 14513,
     "materials": [
       "无垢之海的金杯",
@@ -276,6 +299,7 @@
     "type": "双手剑"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Catalyst_Alaya.png",
     "id": 14512,
     "materials": [
       "烈日威权的旧日",
@@ -288,6 +312,7 @@
     "type": "双手剑"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Catalyst_Ayus.png",
     "id": 14511,
     "materials": [
       "绿洲花园的真谛",
@@ -300,6 +325,7 @@
     "type": "双手剑"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Catalyst_Narukami.png",
     "id": 14509,
     "materials": [
       "今昔剧画之鬼人",
@@ -312,6 +338,7 @@
     "type": "双手剑"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Catalyst_Kaleido.png",
     "id": 14506,
     "materials": [
       "远海夷地的金枝",
@@ -324,6 +351,7 @@
     "type": "双手剑"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Catalyst_Morax.png",
     "id": 14505,
     "materials": [
       "孤云寒林的神体",
@@ -336,6 +364,7 @@
     "type": "双手剑"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Catalyst_Kunwu.png",
     "id": 14504,
     "materials": [
       "漆黑陨铁的一块",
@@ -348,6 +377,7 @@
     "type": "双手剑"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Catalyst_Fourwinds.png",
     "id": 14502,
     "materials": [
       "狮牙斗士的理想",
@@ -360,6 +390,7 @@
     "type": "双手剑"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Catalyst_Dvalin.png",
     "id": 14501,
     "materials": [
       "凛风奔狼的怀乡",
@@ -372,6 +403,7 @@
     "type": "双手剑"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Pole_Carbine.png",
     "id": 13517,
     "materials": [
       "高塔孤王的碎梦",
@@ -384,6 +416,7 @@
     "type": "长柄武器"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Pole_TummaLyhty.png",
     "id": 13516,
     "materials": [
       "长夜燧火的烈辉",
@@ -396,6 +429,7 @@
     "type": "长柄武器"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Pole_Perdix.png",
     "id": 13515,
     "materials": [
       "贡祭炽心的荣膺",
@@ -408,6 +442,7 @@
     "type": "长柄武器"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Pole_Trident.png",
     "id": 13514,
     "materials": [
       "纯圣露滴的真粹",
@@ -420,6 +455,7 @@
     "type": "长柄武器"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Pole_Muguet.png",
     "id": 13513,
     "materials": [
       "无垢之海的金杯",
@@ -432,6 +468,7 @@
     "type": "长柄武器"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Pole_BloodMoon.png",
     "id": 13512,
     "materials": [
       "无垢之海的金杯",
@@ -444,6 +481,7 @@
     "type": "长柄武器"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Pole_Deshret.png",
     "id": 13511,
     "materials": [
       "绿洲花园的真谛",
@@ -456,6 +494,7 @@
     "type": "长柄武器"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Pole_Narukami.png",
     "id": 13509,
     "materials": [
       "今昔剧画之鬼人",
@@ -468,6 +507,7 @@
     "type": "长柄武器"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Pole_Santika.png",
     "id": 13507,
     "materials": [
       "雾海云间的转还",
@@ -480,6 +520,7 @@
     "type": "长柄武器"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Pole_Morax.png",
     "id": 13505,
     "materials": [
       "孤云寒林的神体",
@@ -492,6 +533,7 @@
     "type": "长柄武器"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Pole_Kunwu.png",
     "id": 13504,
     "materials": [
       "漆黑陨铁的一块",
@@ -504,6 +546,7 @@
     "type": "长柄武器"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Pole_Dvalin.png",
     "id": 13502,
     "materials": [
       "狮牙斗士的理想",
@@ -516,6 +559,7 @@
     "type": "长柄武器"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Pole_Homa.png",
     "id": 13501,
     "materials": [
       "漆黑陨铁的一块",
@@ -528,6 +572,7 @@
     "type": "长柄武器"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Claymore_EnsisAquilonis.png",
     "id": 12515,
     "materials": [
       "凛风奔狼的怀乡",
@@ -540,6 +585,7 @@
     "type": "弓"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Claymore_RadianceSword.png",
     "id": 12514,
     "materials": [
       "贡祭炽心的荣膺",
@@ -552,6 +598,7 @@
     "type": "弓"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Claymore_EmeraldSword.png",
     "id": 12513,
     "materials": [
       "谵妄圣主的神面",
@@ -564,6 +611,7 @@
     "type": "弓"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Claymore_GoldenVerdict.png",
     "id": 12512,
     "materials": [
       "悠古弦音的回响",
@@ -576,6 +624,7 @@
     "type": "弓"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Claymore_Deshret.png",
     "id": 12511,
     "materials": [
       "烈日威权的旧日",
@@ -588,6 +637,7 @@
     "type": "弓"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Claymore_Itadorimaru.png",
     "id": 12510,
     "materials": [
       "鸣神御灵的勇武",
@@ -600,6 +650,7 @@
     "type": "弓"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Claymore_Kunwu.png",
     "id": 12504,
     "materials": [
       "雾海云间的转还",
@@ -612,6 +663,7 @@
     "type": "弓"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Claymore_Widsith.png",
     "id": 12503,
     "materials": [
       "高塔孤王的碎梦",
@@ -624,6 +676,7 @@
     "type": "弓"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Claymore_Wolfmound.png",
     "id": 12502,
     "materials": [
       "狮牙斗士的理想",
@@ -636,6 +689,7 @@
     "type": "弓"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Claymore_Dvalin.png",
     "id": 12501,
     "materials": [
       "凛风奔狼的怀乡",
@@ -648,6 +702,7 @@
     "type": "弓"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Sword_SilverwareSaw.png",
     "id": 11519,
     "materials": [
       "漆黑陨铁的一块",
@@ -660,6 +715,7 @@
     "type": "单手剑"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Sword_Motsognir.png",
     "id": 11518,
     "materials": [
       "高塔孤王的碎梦",
@@ -672,6 +728,7 @@
     "type": "单手剑"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Sword_OuterSword.png",
     "id": 11517,
     "materials": [
       "神合秘烟的启示",
@@ -684,6 +741,7 @@
     "type": "单手剑"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Sword_XochitlsTube.png",
     "id": 11516,
     "materials": [
       "神合秘烟的启示",
@@ -696,6 +754,7 @@
     "type": "单手剑"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Sword_Estoc.png",
     "id": 11515,
     "materials": [
       "悠古弦音的回响",
@@ -708,6 +767,7 @@
     "type": "单手剑"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Sword_Needle.png",
     "id": 11514,
     "materials": [
       "远海夷地的金枝",
@@ -720,6 +780,7 @@
     "type": "单手剑"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Sword_Regalis.png",
     "id": 11513,
     "materials": [
       "纯圣露滴的真粹",
@@ -732,6 +793,7 @@
     "type": "单手剑"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Sword_Ayus.png",
     "id": 11512,
     "materials": [
       "谧林涓露的金符",
@@ -744,6 +806,7 @@
     "type": "单手剑"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Sword_Deshret.png",
     "id": 11511,
     "materials": [
       "谧林涓露的金符",
@@ -756,6 +819,7 @@
     "type": "单手剑"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Sword_Amenoma.png",
     "id": 11510,
     "materials": [
       "鸣神御灵的勇武",
@@ -768,6 +832,7 @@
     "type": "单手剑"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Sword_Narukami.png",
     "id": 11509,
     "materials": [
       "远海夷地的金枝",
@@ -780,6 +845,7 @@
     "type": "单手剑"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Sword_Morax.png",
     "id": 11505,
     "materials": [
       "雾海云间的转还",
@@ -792,6 +858,7 @@
     "type": "单手剑"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Sword_Kunwu.png",
     "id": 11504,
     "materials": [
       "孤云寒林的神体",
@@ -804,6 +871,7 @@
     "type": "单手剑"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Sword_Widsith.png",
     "id": 11503,
     "materials": [
       "狮牙斗士的理想",
@@ -816,6 +884,7 @@
     "type": "单手剑"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Sword_Dvalin.png",
     "id": 11502,
     "materials": [
       "凛风奔狼的怀乡",
@@ -828,6 +897,7 @@
     "type": "单手剑"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Sword_Falcon.png",
     "id": 11501,
     "materials": [
       "高塔孤王的碎梦",
@@ -840,6 +910,7 @@
     "type": "单手剑"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Bow_ElegguaBow.png",
     "id": 15434,
     "materials": [
       "神合秘烟的启示",
@@ -852,6 +923,7 @@
     "type": "法器"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Bow_Ilmarinen.png",
     "id": 15433,
     "materials": [
       "长夜燧火的烈辉",
@@ -864,6 +936,7 @@
     "type": "法器"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Bow_Stinger.png",
     "id": 15432,
     "materials": [
       "悠古弦音的回响",
@@ -876,6 +949,7 @@
     "type": "法器"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Bow_Isikhulu.png",
     "id": 15431,
     "materials": [
       "神合秘烟的启示",
@@ -888,6 +962,7 @@
     "type": "法器"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Bow_Umpakati.png",
     "id": 15430,
     "materials": [
       "神合秘烟的启示",
@@ -900,6 +975,7 @@
     "type": "法器"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Bow_Mechanic.png",
     "id": 15427,
     "materials": [
       "悠古弦音的回响",
@@ -912,6 +988,7 @@
     "type": "法器"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Bow_Ultimatum.png",
     "id": 15426,
     "materials": [
       "漆黑陨铁的一块",
@@ -924,6 +1001,7 @@
     "type": "法器"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Bow_Vorpal.png",
     "id": 15425,
     "materials": [
       "悠古弦音的回响",
@@ -936,6 +1014,7 @@
     "type": "法器"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Bow_Gurabad.png",
     "id": 15424,
     "materials": [
       "烈日威权的旧日",
@@ -948,6 +1027,7 @@
     "type": "法器"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Bow_Ibis.png",
     "id": 15419,
     "materials": [
       "谧林涓露的金符",
@@ -960,6 +1040,7 @@
     "type": "法器"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Bow_Fin.png",
     "id": 15418,
     "materials": [
       "烈日威权的旧日",
@@ -972,6 +1053,7 @@
     "type": "法器"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Bow_Arakalari.png",
     "id": 15417,
     "materials": [
       "烈日威权的旧日",
@@ -984,6 +1066,7 @@
     "type": "法器"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Bow_Maria.png",
     "id": 15416,
     "materials": [
       "鸣神御灵的勇武",
@@ -996,6 +1079,7 @@
     "type": "法器"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Bow_Predator.png",
     "id": 15415,
     "materials": [
       "鸣神御灵的勇武",
@@ -1008,6 +1092,7 @@
     "type": "法器"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Bow_Bakufu.png",
     "id": 15414,
     "materials": [
       "鸣神御灵的勇武",
@@ -1020,6 +1105,7 @@
     "type": "法器"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Bow_Fleurfair.png",
     "id": 15413,
     "materials": [
       "狮牙斗士的理想",
@@ -1032,6 +1118,7 @@
     "type": "法器"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Bow_Nachtblind.png",
     "id": 15412,
     "materials": [
       "高塔孤王的碎梦",
@@ -1044,6 +1131,7 @@
     "type": "法器"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Bow_Fallensun.png",
     "id": 15411,
     "materials": [
       "漆黑陨铁的一块",
@@ -1056,6 +1144,7 @@
     "type": "法器"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Bow_Outlaw.png",
     "id": 15410,
     "materials": [
       "狮牙斗士的理想",
@@ -1068,6 +1157,7 @@
     "type": "法器"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Bow_Viridescent.png",
     "id": 15409,
     "materials": [
       "高塔孤王的碎梦",
@@ -1080,6 +1170,7 @@
     "type": "法器"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Bow_Blackrock.png",
     "id": 15408,
     "materials": [
       "孤云寒林的神体",
@@ -1092,6 +1183,7 @@
     "type": "法器"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Bow_Exotic.png",
     "id": 15407,
     "materials": [
       "漆黑陨铁的一块",
@@ -1104,6 +1196,7 @@
     "type": "法器"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Bow_Proto.png",
     "id": 15406,
     "materials": [
       "雾海云间的转还",
@@ -1116,6 +1209,7 @@
     "type": "法器"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Bow_Recluse.png",
     "id": 15405,
     "materials": [
       "孤云寒林的神体",
@@ -1128,6 +1222,7 @@
     "type": "法器"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Bow_Theocrat.png",
     "id": 15404,
     "materials": [
       "狮牙斗士的理想",
@@ -1140,6 +1235,7 @@
     "type": "法器"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Bow_Fossil.png",
     "id": 15403,
     "materials": [
       "凛风奔狼的怀乡",
@@ -1152,6 +1248,7 @@
     "type": "法器"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Bow_Troupe.png",
     "id": 15402,
     "materials": [
       "高塔孤王的碎梦",
@@ -1164,6 +1261,7 @@
     "type": "法器"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Bow_Zephyrus.png",
     "id": 15401,
     "materials": [
       "狮牙斗士的理想",
@@ -1176,6 +1274,7 @@
     "type": "法器"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Catalyst_Ziedas.png",
     "id": 14434,
     "materials": [
       "奇巧秘器的真愿",
@@ -1188,6 +1287,7 @@
     "type": "双手剑"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Catalyst_Ilmarinen.png",
     "id": 14433,
     "materials": [
       "奇巧秘器的真愿",
@@ -1200,6 +1300,7 @@
     "type": "双手剑"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Catalyst_SeeliesLute.png",
     "id": 14432,
     "materials": [
       "终北遗嗣的煌熠",
@@ -1212,6 +1313,7 @@
     "type": "双手剑"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Catalyst_Isikhulu.png",
     "id": 14431,
     "materials": [
       "谵妄圣主的神面",
@@ -1224,6 +1326,7 @@
     "type": "双手剑"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Catalyst_Umpakati.png",
     "id": 14430,
     "materials": [
       "贡祭炽心的荣膺",
@@ -1236,6 +1339,7 @@
     "type": "双手剑"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Catalyst_ConchSprayer.png",
     "id": 14427,
     "materials": [
       "神合秘烟的启示",
@@ -1248,6 +1352,7 @@
     "type": "双手剑"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Catalyst_DandelionPoem.png",
     "id": 14426,
     "materials": [
       "凛风奔狼的怀乡",
@@ -1260,6 +1365,7 @@
     "type": "双手剑"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Catalyst_Vorpal.png",
     "id": 14425,
     "materials": [
       "纯圣露滴的真粹",
@@ -1272,6 +1378,7 @@
     "type": "双手剑"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Catalyst_Yue.png",
     "id": 14424,
     "materials": [
       "孤云寒林的神体",
@@ -1284,6 +1391,7 @@
     "type": "双手剑"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Catalyst_Arakalari.png",
     "id": 14417,
     "materials": [
       "绿洲花园的真谛",
@@ -1296,6 +1404,7 @@
     "type": "双手剑"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Catalyst_Pleroma.png",
     "id": 14416,
     "materials": [
       "绿洲花园的真谛",
@@ -1308,6 +1417,7 @@
     "type": "双手剑"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Catalyst_Jyanome.png",
     "id": 14415,
     "materials": [
       "远海夷地的金枝",
@@ -1320,6 +1430,7 @@
     "type": "双手剑"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Catalyst_Bakufu.png",
     "id": 14414,
     "materials": [
       "远海夷地的金枝",
@@ -1332,6 +1443,7 @@
     "type": "双手剑"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Catalyst_Ludiharpastum.png",
     "id": 14413,
     "materials": [
       "凛风奔狼的怀乡",
@@ -1344,6 +1456,7 @@
     "type": "双手剑"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Catalyst_Everfrost.png",
     "id": 14412,
     "materials": [
       "狮牙斗士的理想",
@@ -1356,6 +1469,7 @@
     "type": "双手剑"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Catalyst_Outlaw.png",
     "id": 14410,
     "materials": [
       "凛风奔狼的怀乡",
@@ -1368,6 +1482,7 @@
     "type": "双手剑"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Catalyst_Truelens.png",
     "id": 14409,
     "materials": [
       "雾海云间的转还",
@@ -1380,6 +1495,7 @@
     "type": "双手剑"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Catalyst_Blackrock.png",
     "id": 14408,
     "materials": [
       "孤云寒林的神体",
@@ -1392,6 +1508,7 @@
     "type": "双手剑"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Catalyst_Exotic.png",
     "id": 14407,
     "materials": [
       "漆黑陨铁的一块",
@@ -1404,6 +1521,7 @@
     "type": "双手剑"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Catalyst_Proto.png",
     "id": 14406,
     "materials": [
       "雾海云间的转还",
@@ -1416,6 +1534,7 @@
     "type": "双手剑"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Catalyst_Resurrection.png",
     "id": 14405,
     "materials": [
       "孤云寒林的神体",
@@ -1428,6 +1547,7 @@
     "type": "双手剑"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Catalyst_Theocrat.png",
     "id": 14404,
     "materials": [
       "高塔孤王的碎梦",
@@ -1440,6 +1560,7 @@
     "type": "双手剑"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Catalyst_Fossil.png",
     "id": 14403,
     "materials": [
       "狮牙斗士的理想",
@@ -1452,6 +1573,7 @@
     "type": "双手剑"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Catalyst_Troupe.png",
     "id": 14402,
     "materials": [
       "凛风奔狼的怀乡",
@@ -1464,6 +1586,7 @@
     "type": "双手剑"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Catalyst_Zephyrus.png",
     "id": 14401,
     "materials": [
       "高塔孤王的碎梦",
@@ -1476,6 +1599,7 @@
     "type": "双手剑"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Pole_Krivule.png",
     "id": 13434,
     "materials": [
       "长夜燧火的烈辉",
@@ -1488,6 +1612,7 @@
     "type": "长柄武器"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Pole_Ilmarinen.png",
     "id": 13433,
     "materials": [
       "长夜燧火的烈辉",
@@ -1500,6 +1625,7 @@
     "type": "长柄武器"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Pole_Aoandon.png",
     "id": 13432,
     "materials": [
       "今昔剧画之鬼人",
@@ -1512,6 +1638,7 @@
     "type": "长柄武器"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Pole_Isikhulu.png",
     "id": 13431,
     "materials": [
       "谵妄圣主的神面",
@@ -1524,6 +1651,7 @@
     "type": "长柄武器"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Pole_Umpakati.png",
     "id": 13430,
     "materials": [
       "谵妄圣主的神面",
@@ -1536,6 +1664,7 @@
     "type": "长柄武器"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Pole_Mechanic.png",
     "id": 13427,
     "materials": [
       "悠古弦音的回响",
@@ -1548,6 +1677,7 @@
     "type": "长柄武器"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Pole_Caduceus.png",
     "id": 13426,
     "materials": [
       "谧林涓露的金符",
@@ -1560,6 +1690,7 @@
     "type": "长柄武器"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Pole_Vorpal.png",
     "id": 13425,
     "materials": [
       "无垢之海的金杯",
@@ -1572,6 +1703,7 @@
     "type": "长柄武器"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Pole_Shanty.png",
     "id": 13424,
     "materials": [
       "无垢之海的金杯",
@@ -1584,6 +1716,7 @@
     "type": "长柄武器"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Pole_Windvane.png",
     "id": 13419,
     "materials": [
       "凛风奔狼的怀乡",
@@ -1596,6 +1729,7 @@
     "type": "长柄武器"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Pole_Arakalari.png",
     "id": 13417,
     "materials": [
       "绿洲花园的真谛",
@@ -1608,6 +1742,7 @@
     "type": "长柄武器"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Pole_Maria.png",
     "id": 13416,
     "materials": [
       "今昔剧画之鬼人",
@@ -1620,6 +1755,7 @@
     "type": "长柄武器"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Pole_Mori.png",
     "id": 13415,
     "materials": [
       "今昔剧画之鬼人",
@@ -1632,6 +1768,7 @@
     "type": "长柄武器"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Pole_Bakufu.png",
     "id": 13414,
     "materials": [
       "今昔剧画之鬼人",
@@ -1644,6 +1781,7 @@
     "type": "长柄武器"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Pole_Everfrost.png",
     "id": 13409,
     "materials": [
       "凛风奔狼的怀乡",
@@ -1656,6 +1794,7 @@
     "type": "长柄武器"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Pole_Theocrat.png",
     "id": 13408,
     "materials": [
       "雾海云间的转还",
@@ -1668,6 +1807,7 @@
     "type": "长柄武器"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Pole_Zephyrus.png",
     "id": 13407,
     "materials": [
       "狮牙斗士的理想",
@@ -1680,6 +1820,7 @@
     "type": "长柄武器"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Pole_Lapis.png",
     "id": 13406,
     "materials": [
       "漆黑陨铁的一块",
@@ -1692,6 +1833,7 @@
     "type": "长柄武器"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Pole_Gladiator.png",
     "id": 13405,
     "materials": [
       "凛风奔狼的怀乡",
@@ -1704,6 +1846,7 @@
     "type": "长柄武器"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Pole_Blackrock.png",
     "id": 13404,
     "materials": [
       "雾海云间的转还",
@@ -1716,6 +1859,7 @@
     "type": "长柄武器"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Pole_Exotic.png",
     "id": 13403,
     "materials": [
       "孤云寒林的神体",
@@ -1728,6 +1872,7 @@
     "type": "长柄武器"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Pole_Proto.png",
     "id": 13402,
     "materials": [
       "漆黑陨铁的一块",
@@ -1740,6 +1885,7 @@
     "type": "长柄武器"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Pole_Stardust.png",
     "id": 13401,
     "materials": [
       "雾海云间的转还",
@@ -1752,6 +1898,7 @@
     "type": "长柄武器"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Claymore_Ilmarinen.png",
     "id": 12433,
     "materials": [
       "终北遗嗣的煌熠",
@@ -1764,6 +1911,7 @@
     "type": "弓"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Claymore_Polilith.png",
     "id": 12432,
     "materials": [
       "谵妄圣主的神面",
@@ -1776,6 +1924,7 @@
     "type": "弓"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Claymore_Isikhulu.png",
     "id": 12431,
     "materials": [
       "贡祭炽心的荣膺",
@@ -1788,6 +1937,7 @@
     "type": "弓"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Claymore_Umpakati.png",
     "id": 12430,
     "materials": [
       "神合秘烟的启示",
@@ -1800,6 +1950,7 @@
     "type": "弓"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Claymore_Mechanic.png",
     "id": 12427,
     "materials": [
       "无垢之海的金杯",
@@ -1812,6 +1963,7 @@
     "type": "弓"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Claymore_Champion.png",
     "id": 12426,
     "materials": [
       "无垢之海的金杯",
@@ -1824,6 +1976,7 @@
     "type": "弓"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Claymore_Vorpal.png",
     "id": 12425,
     "materials": [
       "无垢之海的金杯",
@@ -1836,6 +1989,7 @@
     "type": "弓"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Claymore_BeastTamer.png",
     "id": 12424,
     "materials": [
       "绿洲花园的真谛",
@@ -1848,6 +2002,7 @@
     "type": "弓"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Claymore_Fleurfair.png",
     "id": 12418,
     "materials": [
       "狮牙斗士的理想",
@@ -1860,6 +2015,7 @@
     "type": "弓"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Claymore_Arakalari.png",
     "id": 12417,
     "materials": [
       "谧林涓露的金符",
@@ -1872,6 +2028,7 @@
     "type": "弓"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Claymore_Maria.png",
     "id": 12416,
     "materials": [
       "远海夷地的金枝",
@@ -1884,6 +2041,7 @@
     "type": "弓"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Claymore_Pleroma.png",
     "id": 12415,
     "materials": [
       "烈日威权的旧日",
@@ -1896,6 +2054,7 @@
     "type": "弓"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Claymore_Bakufu.png",
     "id": 12414,
     "materials": [
       "鸣神御灵的勇武",
@@ -1908,6 +2067,7 @@
     "type": "弓"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Claymore_MillenniaTuna.png",
     "id": 12412,
     "materials": [
       "漆黑陨铁的一块",
@@ -1920,6 +2080,7 @@
     "type": "弓"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Claymore_Dragonfell.png",
     "id": 12411,
     "materials": [
       "高塔孤王的碎梦",
@@ -1932,6 +2093,7 @@
     "type": "弓"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Claymore_Lapis.png",
     "id": 12410,
     "materials": [
       "孤云寒林的神体",
@@ -1944,6 +2106,7 @@
     "type": "弓"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Claymore_Kione.png",
     "id": 12409,
     "materials": [
       "漆黑陨铁的一块",
@@ -1956,6 +2119,7 @@
     "type": "弓"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Claymore_Blackrock.png",
     "id": 12408,
     "materials": [
       "雾海云间的转还",
@@ -1968,6 +2132,7 @@
     "type": "弓"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Claymore_Exotic.png",
     "id": 12407,
     "materials": [
       "孤云寒林的神体",
@@ -1980,6 +2145,7 @@
     "type": "弓"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Claymore_Proto.png",
     "id": 12406,
     "materials": [
       "漆黑陨铁的一块",
@@ -1992,6 +2158,7 @@
     "type": "弓"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Claymore_Perdue.png",
     "id": 12405,
     "materials": [
       "雾海云间的转还",
@@ -2004,6 +2171,7 @@
     "type": "弓"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Claymore_Theocrat.png",
     "id": 12404,
     "materials": [
       "狮牙斗士的理想",
@@ -2016,6 +2184,7 @@
     "type": "弓"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Claymore_Fossil.png",
     "id": 12403,
     "materials": [
       "凛风奔狼的怀乡",
@@ -2028,6 +2197,7 @@
     "type": "弓"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Claymore_Troupe.png",
     "id": 12402,
     "materials": [
       "高塔孤王的碎梦",
@@ -2040,6 +2210,7 @@
     "type": "弓"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Claymore_Zephyrus.png",
     "id": 12401,
     "materials": [
       "狮牙斗士的理想",
@@ -2052,6 +2223,7 @@
     "type": "弓"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Sword_Miekka.png",
     "id": 11434,
     "materials": [
       "终北遗嗣的煌熠",
@@ -2064,6 +2236,7 @@
     "type": "单手剑"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Sword_Ilmarinen.png",
     "id": 11433,
     "materials": [
       "奇巧秘器的真愿",
@@ -2076,6 +2249,7 @@
     "type": "单手剑"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Sword_SacrificialNgombe.png",
     "id": 11432,
     "materials": [
       "谵妄圣主的神面",
@@ -2088,6 +2262,7 @@
     "type": "单手剑"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Sword_Isikhulu.png",
     "id": 11431,
     "materials": [
       "贡祭炽心的荣膺",
@@ -2100,6 +2275,7 @@
     "type": "单手剑"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Sword_Umpakati.png",
     "id": 11430,
     "materials": [
       "贡祭炽心的荣膺",
@@ -2112,6 +2288,7 @@
     "type": "单手剑"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Sword_Purewill.png",
     "id": 11428,
     "materials": [
       "悠古弦音的回响",
@@ -2124,6 +2301,7 @@
     "type": "单手剑"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Sword_Mechanic.png",
     "id": 11427,
     "materials": [
       "纯圣露滴的真粹",
@@ -2136,6 +2314,7 @@
     "type": "单手剑"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Sword_Machination.png",
     "id": 11426,
     "materials": [
       "悠古弦音的回响",
@@ -2148,6 +2327,7 @@
     "type": "单手剑"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Sword_Vorpal.png",
     "id": 11425,
     "materials": [
       "纯圣露滴的真粹",
@@ -2160,6 +2340,7 @@
     "type": "单手剑"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Sword_Boreas.png",
     "id": 11424,
     "materials": [
       "高塔孤王的碎梦",
@@ -2172,6 +2353,7 @@
     "type": "单手剑"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Sword_Kasabouzu.png",
     "id": 11422,
     "materials": [
       "鸣神御灵的勇武",
@@ -2184,6 +2366,7 @@
     "type": "单手剑"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Sword_Pleroma.png",
     "id": 11418,
     "materials": [
       "谧林涓露的金符",
@@ -2196,6 +2379,7 @@
     "type": "单手剑"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Sword_Arakalari.png",
     "id": 11417,
     "materials": [
       "谧林涓露的金符",
@@ -2208,6 +2392,7 @@
     "type": "单手剑"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Sword_Youtou.png",
     "id": 11416,
     "materials": [
       "今昔剧画之鬼人",
@@ -2220,6 +2405,7 @@
     "type": "单手剑"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Sword_Opus.png",
     "id": 11415,
     "materials": [
       "高塔孤王的碎梦",
@@ -2232,6 +2418,7 @@
     "type": "单手剑"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Sword_Bakufu.png",
     "id": 11414,
     "materials": [
       "远海夷地的金枝",
@@ -2244,6 +2431,7 @@
     "type": "单手剑"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Sword_Magnum.png",
     "id": 11413,
     "materials": [
       "狮牙斗士的理想",
@@ -2256,6 +2444,7 @@
     "type": "单手剑"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Sword_Psalmus.png",
     "id": 11412,
     "materials": [
       "凛风奔狼的怀乡",
@@ -2268,6 +2457,7 @@
     "type": "单手剑"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Sword_Outlaw.png",
     "id": 11410,
     "materials": [
       "高塔孤王的碎梦",
@@ -2280,6 +2470,7 @@
     "type": "单手剑"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Sword_Bloodstained.png",
     "id": 11409,
     "materials": [
       "凛风奔狼的怀乡",
@@ -2292,6 +2483,7 @@
     "type": "单手剑"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Sword_Blackrock.png",
     "id": 11408,
     "materials": [
       "孤云寒林的神体",
@@ -2304,6 +2496,7 @@
     "type": "单手剑"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Sword_Exotic.png",
     "id": 11407,
     "materials": [
       "漆黑陨铁的一块",
@@ -2316,6 +2509,7 @@
     "type": "单手剑"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Sword_Proto.png",
     "id": 11406,
     "materials": [
       "雾海云间的转还",
@@ -2328,6 +2522,7 @@
     "type": "单手剑"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Sword_Rockkiller.png",
     "id": 11405,
     "materials": [
       "孤云寒林的神体",
@@ -2340,6 +2535,7 @@
     "type": "单手剑"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Sword_Theocrat.png",
     "id": 11404,
     "materials": [
       "高塔孤王的碎梦",
@@ -2352,6 +2548,7 @@
     "type": "单手剑"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Sword_Fossil.png",
     "id": 11403,
     "materials": [
       "狮牙斗士的理想",
@@ -2364,6 +2561,7 @@
     "type": "单手剑"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Sword_Troupe.png",
     "id": 11402,
     "materials": [
       "凛风奔狼的怀乡",
@@ -2376,6 +2574,7 @@
     "type": "单手剑"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Sword_Zephyrus.png",
     "id": 11401,
     "materials": [
       "高塔孤王的碎梦",
@@ -2388,6 +2587,7 @@
     "type": "单手剑"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Bow_Msg.png",
     "id": 15305,
     "materials": [
       "雾海云间的转还",
@@ -2400,6 +2600,7 @@
     "type": "法器"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Bow_Sling.png",
     "id": 15304,
     "materials": [
       "孤云寒林的神体",
@@ -2412,6 +2613,7 @@
     "type": "法器"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Bow_Curve.png",
     "id": 15303,
     "materials": [
       "狮牙斗士的理想",
@@ -2424,6 +2626,7 @@
     "type": "法器"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Bow_Arjuna.png",
     "id": 15302,
     "materials": [
       "凛风奔狼的怀乡",
@@ -2436,6 +2639,7 @@
     "type": "法器"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Bow_Crowfeather.png",
     "id": 15301,
     "materials": [
       "高塔孤王的碎梦",
@@ -2448,6 +2652,7 @@
     "type": "法器"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Catalyst_Phoney.png",
     "id": 14305,
     "materials": [
       "雾海云间的转还",
@@ -2460,6 +2665,7 @@
     "type": "双手剑"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Catalyst_Jade.png",
     "id": 14304,
     "materials": [
       "孤云寒林的神体",
@@ -2472,6 +2678,7 @@
     "type": "双手剑"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Catalyst_Lightnov.png",
     "id": 14303,
     "materials": [
       "狮牙斗士的理想",
@@ -2484,6 +2691,7 @@
     "type": "双手剑"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Catalyst_Pulpfic.png",
     "id": 14302,
     "materials": [
       "凛风奔狼的怀乡",
@@ -2496,6 +2704,7 @@
     "type": "双手剑"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Catalyst_Intro.png",
     "id": 14301,
     "materials": [
       "高塔孤王的碎梦",
@@ -2508,6 +2717,7 @@
     "type": "双手剑"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Pole_Noire.png",
     "id": 13303,
     "materials": [
       "漆黑陨铁的一块",
@@ -2520,6 +2730,7 @@
     "type": "长柄武器"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Pole_Halberd.png",
     "id": 13302,
     "materials": [
       "雾海云间的转还",
@@ -2532,6 +2743,7 @@
     "type": "长柄武器"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Pole_Ruby.png",
     "id": 13301,
     "materials": [
       "孤云寒林的神体",
@@ -2544,6 +2756,7 @@
     "type": "长柄武器"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Claymore_Mitsurugi.png",
     "id": 12306,
     "materials": [
       "漆黑陨铁的一块",
@@ -2556,6 +2769,7 @@
     "type": "弓"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Claymore_Reasoning.png",
     "id": 12305,
     "materials": [
       "雾海云间的转还",
@@ -2568,6 +2782,7 @@
     "type": "弓"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Claymore_Tin.png",
     "id": 12303,
     "materials": [
       "狮牙斗士的理想",
@@ -2580,6 +2795,7 @@
     "type": "弓"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Claymore_Siegfry.png",
     "id": 12302,
     "materials": [
       "凛风奔狼的怀乡",
@@ -2592,6 +2808,7 @@
     "type": "弓"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Claymore_Glaive.png",
     "id": 12301,
     "materials": [
       "高塔孤王的碎梦",
@@ -2604,6 +2821,7 @@
     "type": "弓"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Sword_Mitsurugi.png",
     "id": 11306,
     "materials": [
       "漆黑陨铁的一块",
@@ -2616,6 +2834,7 @@
     "type": "单手剑"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Sword_Sashimi.png",
     "id": 11305,
     "materials": [
       "雾海云间的转还",
@@ -2628,6 +2847,7 @@
     "type": "单手剑"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Sword_Darker.png",
     "id": 11304,
     "materials": [
       "孤云寒林的神体",
@@ -2640,6 +2860,7 @@
     "type": "单手剑"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Sword_Traveler.png",
     "id": 11303,
     "materials": [
       "狮牙斗士的理想",
@@ -2652,6 +2873,7 @@
     "type": "单手剑"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Sword_Dawn.png",
     "id": 11302,
     "materials": [
       "凛风奔狼的怀乡",
@@ -2664,6 +2886,7 @@
     "type": "单手剑"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Sword_Steel.png",
     "id": 11301,
     "materials": [
       "高塔孤王的碎梦",
@@ -2676,6 +2899,7 @@
     "type": "单手剑"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Bow_Old.png",
     "id": 15201,
     "materials": [
       "凛风奔狼的断牙",
@@ -2688,6 +2912,7 @@
     "type": "法器"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Catalyst_Pocket.png",
     "id": 14201,
     "materials": [
       "高塔孤王的断片",
@@ -2700,6 +2925,7 @@
     "type": "双手剑"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Pole_Rod.png",
     "id": 13201,
     "materials": [
       "狮牙斗士的镣铐",
@@ -2712,6 +2938,7 @@
     "type": "长柄武器"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Claymore_Oyaji.png",
     "id": 12201,
     "materials": [
       "凛风奔狼的断牙",
@@ -2724,6 +2951,7 @@
     "type": "弓"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Sword_Silver.png",
     "id": 11201,
     "materials": [
       "高塔孤王的断片",
@@ -2736,6 +2964,7 @@
     "type": "单手剑"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Bow_Hunters.png",
     "id": 15101,
     "materials": [
       "凛风奔狼的断牙",
@@ -2748,6 +2977,7 @@
     "type": "法器"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Catalyst_Apprentice.png",
     "id": 14101,
     "materials": [
       "高塔孤王的断片",
@@ -2760,6 +2990,7 @@
     "type": "双手剑"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Pole_Gewalt.png",
     "id": 13101,
     "materials": [
       "狮牙斗士的镣铐",
@@ -2772,6 +3003,7 @@
     "type": "长柄武器"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Claymore_Aniki.png",
     "id": 12101,
     "materials": [
       "凛风奔狼的断牙",
@@ -2784,6 +3016,7 @@
     "type": "弓"
   },
   {
+    "iconURL": "https://enka.network/ui/UI_EquipIcon_Sword_Blunt.png",
     "id": 11101,
     "materials": [
       "高塔孤王的断片",

@@ -184,7 +184,7 @@ def build_official_manual_payload(
     if official_json_path is not None:
         announcements = convert_official_announcements(read_json(official_json_path))
 
-    return RemoteDataPayload(
+    payload = RemoteDataPayload(
         source="official-manual",
         version_prefix="manual",
         characters=read_json(manual_dir / "characters.json"),
@@ -193,6 +193,10 @@ def build_official_manual_payload(
         gacha_events=read_json(manual_dir / "gacha-events.json"),
         announcements=announcements,
     )
+    asset_overrides = read_json_if_exists(manual_dir / "assets.json")
+    if asset_overrides:
+        apply_asset_overrides(payload, asset_overrides)
+    return payload
 
 
 def generate_public_data(payload: RemoteDataPayload, public_dir: Path, base_url: str) -> list[GeneratedFile]:
@@ -200,6 +204,7 @@ def generate_public_data(payload: RemoteDataPayload, public_dir: Path, base_url:
     now = datetime.now(timezone.utc)
     announcements = payload.announcements or empty_announcements()
     previous_metadata = read_json_if_exists(public_dir / "metadata.json") or {}
+    apply_asset_overrides(payload, previous_metadata)
     previous_announcements = read_json_if_exists(public_dir / "announcements.json") or {}
     previous_gacha_events = read_json_if_exists(public_dir / "gacha-events.json") or []
     data_changed = (
@@ -272,6 +277,43 @@ def generate_public_data(payload: RemoteDataPayload, public_dir: Path, base_url:
     write_json(public_dir / "manifest.json", manifest)
     generated.append(GeneratedFile("manifest.json", "manifest"))
     return generated
+
+
+def apply_asset_overrides(payload: RemoteDataPayload, asset_payload: dict[str, Any]) -> None:
+    merge_asset_fields(payload.characters, asset_payload.get("characters"), ["iconURL", "portraitURL"])
+    merge_asset_fields(payload.weapons, asset_payload.get("weapons"), ["iconURL"])
+    merge_asset_fields(payload.materials, asset_payload.get("materials"), ["iconURL"])
+
+
+def merge_asset_fields(items: list[dict[str, Any]], asset_items: Any, fields: list[str]) -> None:
+    if not isinstance(asset_items, list):
+        return
+
+    by_id: dict[Any, dict[str, Any]] = {}
+    by_name: dict[str, dict[str, Any]] = {}
+    for asset_item in asset_items:
+        if not isinstance(asset_item, dict):
+            continue
+        item_id = asset_item.get("id")
+        if item_id is not None:
+            by_id[item_id] = asset_item
+        name = asset_item.get("name")
+        if isinstance(name, str) and name:
+            by_name[name] = asset_item
+
+    for item in items:
+        asset_item = by_id.get(item.get("id"))
+        if asset_item is None:
+            name = item.get("name")
+            asset_item = by_name.get(name) if isinstance(name, str) else None
+        if asset_item is None:
+            continue
+        for field in fields:
+            if item.get(field):
+                continue
+            value = asset_item.get(field)
+            if isinstance(value, str) and value:
+                item[field] = value
 
 
 def convert_characters(avatar_dir: Path, material_names: dict[int, str]) -> list[dict[str, Any]]:
@@ -603,6 +645,26 @@ def run_self_test() -> None:
         }
     )
     assert official_announcements["items"][0]["title"] == "祈愿活动开启"
+
+    manual_payload = RemoteDataPayload(
+        source="official-manual",
+        version_prefix="manual",
+        characters=[{"id": 10000002, "name": "神里绫华"}],
+        weapons=[{"id": 11502, "name": "雾切之回光"}],
+        materials=[{"id": 114003, "name": "远海夷地的瑚枝"}],
+        gacha_events=[],
+    )
+    apply_asset_overrides(
+        manual_payload,
+        {
+            "characters": [{"id": 10000002, "iconURL": "https://enka.network/ui/UI_AvatarIcon_Ayaka.png"}],
+            "weapons": [{"id": 11502, "iconURL": "https://enka.network/ui/UI_EquipIcon_Sword_Narukami.png"}],
+            "materials": [{"id": 114003, "iconURL": "https://enka.network/ui/UI_ItemIcon_114003.png"}],
+        },
+    )
+    assert manual_payload.characters[0]["iconURL"].endswith("/UI_AvatarIcon_Ayaka.png")
+    assert manual_payload.weapons[0]["iconURL"].endswith("/UI_EquipIcon_Sword_Narukami.png")
+    assert manual_payload.materials[0]["iconURL"].endswith("/UI_ItemIcon_114003.png")
 
 
 def read_json(path: Path) -> Any:
