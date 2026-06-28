@@ -131,16 +131,6 @@
       "type": "游戏公告"
     },
     {
-      "banner": "https://sdk-webstatic.mihoyo.com/upload/ann/2026/05/26/652461a2da93dbfe9be5cb8f9bd9c92c_7983215916805981191_transformed.jpg",
-      "contentURL": "",
-      "endTime": "2026-06-29 03:59:59",
-      "id": "21705",
-      "startTime": "2026-06-16 12:00:00",
-      "subtitle": "「斑斓色彩追逐战」",
-      "title": "「斑斓色彩追逐战」活动：收集颜料挑战",
-      "type": "活动公告"
-    },
-    {
       "banner": "https://sdk-webstatic.mihoyo.com/upload/ann/2026/05/26/c2a3b8cc3cf10224c248a781325ce2e3_5629417702843428147_transformed.jpg",
       "contentURL": "",
       "endTime": "2026-06-30 14:59:59",
@@ -221,16 +211,6 @@
       "type": "活动公告"
     },
     {
-      "banner": "https://sdk-webstatic.mihoyo.com/upload/ann/2026/05/07/e0c803bc517171b0948012b4246e6099_5005585799776689993_transformed.jpg",
-      "contentURL": "",
-      "endTime": "2026-06-29 03:59:59",
-      "id": "21696",
-      "startTime": "2026-05-18 12:00:00",
-      "subtitle": "「赠绮纪行」",
-      "title": "「赠绮纪行」活动说明",
-      "type": "活动公告"
-    },
-    {
       "banner": "https://sdk-webstatic.mihoyo.com/upload/ann/2024/09/19/555e97a23cedc7a1ad9efc0aefb47a72_8932950755834038243.png",
       "contentURL": "",
       "endTime": "2026-07-01 07:00:00",
@@ -291,16 +271,6 @@
       "type": "千星奇域"
     },
     {
-      "banner": "https://sdk-webstatic.mihoyo.com/upload/ann/2026/05/11/3c373b02e62d497c5a8bebbf9b5a5122_8136795674437427717_transformed.jpg",
-      "contentURL": "",
-      "endTime": "2026-06-29 03:59:59",
-      "id": "21688",
-      "startTime": "2026-06-13 12:00:00",
-      "subtitle": "「游赏耀星·韵胜」",
-      "title": "「游赏耀星·韵胜」参与获得缤纷惊喜礼盒代币「奇丽凝晶」",
-      "type": "千星奇域"
-    },
-    {
       "banner": "https://sdk-webstatic.mihoyo.com/upload/ann/2026/05/11/46db25fe3b2fd5865de1f85075d57ab6_3813976230261816053_transformed.jpg",
       "contentURL": "",
       "endTime": "2026-07-01 07:00:00",
@@ -309,18 +279,8 @@
       "subtitle": "「绮衣珍赏·汇涌」",
       "title": "「绮衣珍赏·汇涌」参与获得自选奇偶装扮套装「溅彩画家」一套",
       "type": "千星奇域"
-    },
-    {
-      "banner": "https://sdk-webstatic.mihoyo.com/upload/ann/2026/05/11/218cee0d47efaf7af7ded81c856ff332_1974032192440575098_transformed.jpg",
-      "contentURL": "",
-      "endTime": "2026-06-29 03:59:59",
-      "id": "21686",
-      "startTime": "2026-05-18 12:00:00",
-      "subtitle": "「奇域秘藏·斑彩蝶迹」",
-      "title": "「奇域秘藏·斑彩蝶迹」奇偶装扮上新",
-      "type": "千星奇域"
     }
   ],
   "schemaVersion": 1,
-  "updatedAt": "2026-06-27T06:26:22Z"
+  "updatedAt": "2026-06-28T20:36:56Z"
 }
