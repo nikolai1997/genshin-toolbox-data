@@ -36,7 +36,7 @@ jobs:
       - name: Generate public data
         run: |
           python3 tools/update_remote_data.py \
-            --source official-manual \
+            --source genshin-db \
             --gacha-source snap-metadata \
             --manual-dir data/manual \
             --fetch-official-announcements \

@@ -1,6 +1,6 @@
 {
   "baseURL": "",
-  "dataSource": "official-manual",
+  "dataSource": "genshin-db",
   "offlinePackageName": "data-pack-2026.06.29.zip",
   "preferredUpdateChannel": "github-pages",
   "schemaVersion": 1

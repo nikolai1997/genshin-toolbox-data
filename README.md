@@ -16,7 +16,9 @@ https://nikolai1997.github.io/paimon-toolbox-data/metadata.json
 This repository publishes generated app data derived from public Genshin Impact
 resources, including:
 
-- Public metadata from the open-source
+- Public character, weapon, and material metadata from the open-source
+  [genshin-db](https://github.com/theBowja/genshin-db) project.
+- Public gacha event metadata from the open-source
   [Snap.Metadata](https://github.com/SnapHutaoRemasteringProject/Snap.Metadata)
   project.
 - Public announcement and event information from official Genshin Impact

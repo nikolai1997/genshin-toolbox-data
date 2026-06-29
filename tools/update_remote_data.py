@@ -19,9 +19,16 @@ from pathlib import Path
 from typing import Any
 
 
-REPO_URL = "https://github.com/SnapHutaoRemasteringProject/Snap.Metadata.git"
+SNAP_METADATA_REPO_URL = "https://github.com/SnapHutaoRemasteringProject/Snap.Metadata.git"
+GENSHIN_DB_REPO_URL = "https://github.com/theBowja/genshin-db.git"
 ASSET_BASE_URL = "https://enka.network/ui"
 OFFICIAL_ANNOUNCEMENTS_URL = "https://hk4e-ann-api.mihoyo.com/common/hk4e_cn/announcement/api/getAnnList?game=hk4e&game_biz=hk4e_cn&lang=zh-cn&bundle_id=hk4e_cn&platform=pc&region=cn_gf01&level=55&uid=100000000"
+GENSHIN_DB_SPARSE_PATHS = [
+    "src/data/ChineseSimplified/characters",
+    "src/data/ChineseSimplified/weapons",
+    "src/data/ChineseSimplified/materials",
+    "src/data/image",
+]
 WEAPON_TYPES = {
     1: "单手剑",
     10: "双手剑",
@@ -72,12 +79,13 @@ def main() -> int:
     parser = argparse.ArgumentParser(description="Update GenshinToolbox remote data artifacts.")
     parser.add_argument(
         "--source",
-        choices=["snap-metadata", "official-manual"],
+        choices=["snap-metadata", "official-manual", "genshin-db"],
         default="snap-metadata",
         help="data source provider, default: snap-metadata",
     )
     parser.add_argument("--locale", default="CHS", help="Snap.Metadata locale folder, default: CHS")
     parser.add_argument("--source-cache", default=".cache/Snap.Metadata", help="local Snap.Metadata checkout")
+    parser.add_argument("--genshin-db-cache", default=".cache/genshin-db", help="local genshin-db checkout")
     parser.add_argument("--manual-dir", default="data/manual", help="manual patch directory for official-manual source")
     parser.add_argument(
         "--gacha-source",
@@ -111,6 +119,7 @@ def main() -> int:
 
     root = Path.cwd()
     source_cache = root / args.source_cache
+    genshin_db_cache = root / args.genshin_db_cache
     manual_dir = root / args.manual_dir
     public_dir = root / args.public_dir
     release_dir = root / args.release_dir
@@ -121,7 +130,7 @@ def main() -> int:
         if not locale_dir.exists():
             raise SystemExit(f"Missing locale directory: {locale_dir}")
         payload = build_snap_metadata_payload(locale_dir)
-    else:
+    elif args.source == "official-manual":
         gacha_events_override = None
         if args.gacha_source == "snap-metadata":
             try:
@@ -134,6 +143,20 @@ def main() -> int:
             fetch_official_announcements=args.fetch_official_announcements,
             gacha_events_override=gacha_events_override,
         )
+    else:
+        announcements = load_announcements(
+            manual_dir,
+            official_announcements_json=Path(args.official_announcements_json) if args.official_announcements_json else None,
+            fetch_official_announcements=args.fetch_official_announcements,
+        )
+        gacha_events = read_json(manual_dir / "gacha-events.json")
+        if args.gacha_source == "snap-metadata":
+            try:
+                gacha_events = load_snap_gacha_events(source_cache, args.locale, args.skip_fetch)
+            except Exception as error:
+                print(f"warning: Snap.Metadata gacha fetch failed, using manual gacha-events.json: {error}", file=sys.stderr)
+        ensure_genshin_db_checkout(genshin_db_cache, skip_fetch=args.skip_fetch)
+        payload = build_genshin_db_payload(genshin_db_cache, gacha_events=gacha_events, announcements=announcements)
 
     generated = generate_public_data(payload, public_dir, args.base_url)
     zip_path = package_release(public_dir, release_dir, generated)
@@ -147,6 +170,14 @@ def main() -> int:
 
 
 def ensure_source_checkout(source_cache: Path, skip_fetch: bool) -> None:
+    ensure_git_checkout(SNAP_METADATA_REPO_URL, source_cache, skip_fetch=skip_fetch)
+
+
+def ensure_genshin_db_checkout(source_cache: Path, skip_fetch: bool) -> None:
+    ensure_git_checkout(GENSHIN_DB_REPO_URL, source_cache, skip_fetch=skip_fetch, sparse_paths=GENSHIN_DB_SPARSE_PATHS)
+
+
+def ensure_git_checkout(repo_url: str, source_cache: Path, skip_fetch: bool, sparse_paths: list[str] | None = None) -> None:
     if skip_fetch:
         if not source_cache.exists():
             raise SystemExit(f"{source_cache} does not exist; rerun without --skip-fetch")
@@ -156,9 +187,15 @@ def ensure_source_checkout(source_cache: Path, skip_fetch: bool) -> None:
     if (source_cache / ".git").exists():
         run(["git", "-C", str(source_cache), "fetch", "--depth", "1", "origin", "main"])
         run(["git", "-C", str(source_cache), "reset", "--hard", "origin/main"])
+        if sparse_paths:
+            run(["git", "-C", str(source_cache), "sparse-checkout", "set", *sparse_paths])
         return
 
-    run(["git", "clone", "--depth", "1", REPO_URL, str(source_cache)])
+    if sparse_paths:
+        run(["git", "clone", "--depth", "1", "--filter=blob:none", "--sparse", repo_url, str(source_cache)])
+        run(["git", "-C", str(source_cache), "sparse-checkout", "set", *sparse_paths])
+    else:
+        run(["git", "clone", "--depth", "1", repo_url, str(source_cache)])
 
 
 def build_snap_metadata_payload(locale_dir: Path) -> RemoteDataPayload:
@@ -175,12 +212,51 @@ def build_snap_metadata_payload(locale_dir: Path) -> RemoteDataPayload:
     )
 
 
+def build_genshin_db_payload(
+    source_cache: Path,
+    gacha_events: list[dict[str, Any]],
+    announcements: dict[str, Any] | None,
+) -> RemoteDataPayload:
+    locale_dir = source_cache / "src" / "data" / "ChineseSimplified"
+    image_dir = source_cache / "src" / "data" / "image"
+    if not locale_dir.exists():
+        raise SystemExit(f"Missing genshin-db locale directory: {locale_dir}")
+
+    character_images = read_json_if_exists(image_dir / "characters.json") or {}
+    weapon_images = read_json_if_exists(image_dir / "weapons.json") or {}
+    material_images = read_json_if_exists(image_dir / "materials.json") or {}
+
+    return RemoteDataPayload(
+        source="genshin-db",
+        version_prefix="genshin-db",
+        characters=convert_genshin_db_characters(locale_dir / "characters", character_images),
+        weapons=convert_genshin_db_weapons(locale_dir / "weapons", weapon_images),
+        materials=convert_genshin_db_materials(locale_dir / "materials", material_images),
+        gacha_events=gacha_events,
+        announcements=announcements,
+    )
+
+
 def load_snap_gacha_events(source_cache: Path, locale: str, skip_fetch: bool) -> list[dict[str, Any]]:
     ensure_source_checkout(source_cache, skip_fetch=skip_fetch)
     locale_dir = source_cache / "Genshin" / locale
     if not locale_dir.exists():
         raise FileNotFoundError(f"Missing locale directory: {locale_dir}")
     return convert_gacha_events(read_json(locale_dir / "GachaEvent.json"))
+
+
+def load_announcements(
+    manual_dir: Path,
+    official_announcements_json: Path | None,
+    fetch_official_announcements: bool,
+) -> dict[str, Any]:
+    announcements = read_json_if_exists(manual_dir / "announcements.json") or empty_announcements()
+    official_json_path = official_announcements_json
+    if fetch_official_announcements:
+        official_json_path = fetch_official_announcements_json_if_available(manual_dir)
+    if official_json_path is not None:
+        return convert_official_announcements(read_json(official_json_path))
+    return announcements
 
 
 def build_official_manual_payload(
@@ -199,12 +275,11 @@ def build_official_manual_payload(
     if missing:
         raise SystemExit(f"Missing manual patch files in {manual_dir}: {', '.join(missing)}")
 
-    announcements = read_json_if_exists(manual_dir / "announcements.json") or empty_announcements()
-    official_json_path = official_announcements_json
-    if fetch_official_announcements:
-        official_json_path = fetch_official_announcements_json_if_available(manual_dir)
-    if official_json_path is not None:
-        announcements = convert_official_announcements(read_json(official_json_path))
+    announcements = load_announcements(
+        manual_dir,
+        official_announcements_json=official_announcements_json,
+        fetch_official_announcements=fetch_official_announcements,
+    )
 
     payload = RemoteDataPayload(
         source="official-manual",
@@ -336,6 +411,164 @@ def merge_asset_fields(items: list[dict[str, Any]], asset_items: Any, fields: li
             value = asset_item.get(field)
             if isinstance(value, str) and value:
                 item[field] = value
+
+
+def convert_genshin_db_characters(character_dir: Path, image_index: dict[str, Any]) -> list[dict[str, Any]]:
+    characters: list[dict[str, Any]] = []
+    for path in sorted(character_dir.glob("*.json")):
+        character = read_json(path)
+        name = character.get("name")
+        if not name:
+            continue
+
+        item = {
+            "id": character["id"],
+            "name": name,
+            "element": character.get("elementText") or "无",
+            "weaponType": character.get("weaponText") or "未知",
+            "rarity": character.get("rarity", 0),
+            "region": character.get("region") or character.get("affiliation") or "未知",
+            "materials": collect_cost_names(character.get("costs")),
+        }
+        cultivation = infer_genshin_db_character_cultivation(character.get("costs"))
+        if cultivation:
+            item["cultivation"] = cultivation
+        image_payload = image_index.get(path.stem) if isinstance(image_index, dict) else None
+        if isinstance(image_payload, dict):
+            add_asset_url(item, "iconURL", first_string(image_payload, "filename_icon"))
+            add_asset_url(item, "portraitURL", first_string(image_payload, "filename_sideIcon", "filename_iconCard"))
+        characters.append(item)
+    return sorted(characters, key=lambda item: (item["rarity"], item["id"]), reverse=True)
+
+
+def convert_genshin_db_weapons(weapon_dir: Path, image_index: dict[str, Any]) -> list[dict[str, Any]]:
+    weapons: list[dict[str, Any]] = []
+    for path in sorted(weapon_dir.glob("*.json")):
+        weapon = read_json(path)
+        name = weapon.get("name")
+        if not name:
+            continue
+
+        item = {
+            "id": weapon["id"],
+            "name": name,
+            "type": weapon.get("weaponText") or "未知",
+            "rarity": weapon.get("rarity", 0),
+            "stat": weapon.get("mainStatText") or "基础攻击力",
+            "materials": collect_cost_names(weapon.get("costs")),
+        }
+        image_payload = image_index.get(path.stem) if isinstance(image_index, dict) else None
+        if isinstance(image_payload, dict):
+            add_asset_url(item, "iconURL", first_string(image_payload, "filename_icon"))
+        weapons.append(item)
+    return sorted(weapons, key=lambda item: (item["rarity"], item["id"]), reverse=True)
+
+
+def convert_genshin_db_materials(material_dir: Path, image_index: dict[str, Any]) -> list[dict[str, Any]]:
+    materials: list[dict[str, Any]] = []
+    for path in sorted(material_dir.glob("*.json")):
+        material = read_json(path)
+        name = material.get("name")
+        if not name:
+            continue
+
+        sources = material.get("sources") or []
+        item = {
+            "id": material["id"],
+            "name": name,
+            "category": material.get("typeText") or material.get("category") or "材料",
+            "source": "\n".join(sources) if sources else material.get("description", ""),
+        }
+        image_payload = image_index.get(path.stem) if isinstance(image_index, dict) else None
+        if isinstance(image_payload, dict):
+            add_asset_url(item, "iconURL", first_string(image_payload, "filename_icon"))
+        if not item.get("iconURL"):
+            add_asset_url(item, "iconURL", f"UI_ItemIcon_{item['id']}")
+        materials.append(item)
+    return sorted(materials, key=lambda item: item["id"])
+
+
+def collect_cost_names(costs: Any) -> list[str]:
+    if not isinstance(costs, dict):
+        return []
+    names: list[str] = []
+    for key in sorted(costs):
+        entries = costs.get(key)
+        if not isinstance(entries, list):
+            continue
+        for entry in entries:
+            if not isinstance(entry, dict):
+                continue
+            name = entry.get("name")
+            if not isinstance(name, str) or not name or name == "摩拉":
+                continue
+            if name not in names:
+                names.append(name)
+    return names
+
+
+def infer_genshin_db_character_cultivation(costs: Any) -> dict[str, Any] | None:
+    if not isinstance(costs, dict):
+        return None
+    ascend_entries: list[dict[str, Any]] = []
+    talent_entries: list[dict[str, Any]] = []
+    for key, entries in costs.items():
+        if not isinstance(entries, list):
+            continue
+        if str(key).startswith("ascend"):
+            ascend_entries.extend(entry for entry in entries if isinstance(entry, dict))
+        elif str(key).startswith("talent"):
+            talent_entries.extend(entry for entry in entries if isinstance(entry, dict))
+
+    ascension_names = collect_names_from_entries(ascend_entries)
+    talent_names = collect_names_from_entries(talent_entries)
+    gems = [name for name in ascension_names if any(suffix in name for suffix in ["碎屑", "断片", "块", "玉", "石"])]
+    boss = first_matching_entry_name(ascend_entries, exclude=set(gems), min_id=113000, max_id=113999)
+    local = first_matching_entry_name(ascend_entries, exclude=set(gems + ([boss] if boss else [])), min_id=100000, max_id=101999)
+    common_names = names_by_id_range(ascend_entries, 112000, 112999)
+    talent_book_names = [name for name in talent_names if "「" in name and "」" in name]
+    weekly = first_matching_entry_name(talent_entries, exclude=set(talent_book_names), min_id=113000, max_id=113999)
+    cultivation = {
+        "ascensionGemNames": gems[:4],
+        "bossMaterialName": boss or "",
+        "localSpecialtyName": local or "",
+        "commonMaterialNames": common_names[:3],
+        "talentBookNames": talent_book_names[:3],
+        "weeklyBossMaterialName": weekly or "",
+    }
+    if any(cultivation.values()):
+        return cultivation
+    return None
+
+
+def collect_names_from_entries(entries: list[dict[str, Any]]) -> list[str]:
+    names: list[str] = []
+    for entry in entries:
+        name = entry.get("name")
+        if isinstance(name, str) and name and name != "摩拉" and name not in names:
+            names.append(name)
+    return names
+
+
+def names_by_id_range(entries: list[dict[str, Any]], min_id: int, max_id: int) -> list[str]:
+    names: list[str] = []
+    for entry in sorted(entries, key=lambda value: value.get("id", 0)):
+        item_id = entry.get("id")
+        name = entry.get("name")
+        if isinstance(item_id, int) and min_id <= item_id <= max_id and isinstance(name, str) and name not in names:
+            names.append(name)
+    return names
+
+
+def first_matching_entry_name(entries: list[dict[str, Any]], exclude: set[str], min_id: int, max_id: int) -> str:
+    for entry in sorted(entries, key=lambda value: value.get("id", 0)):
+        item_id = entry.get("id")
+        name = entry.get("name")
+        if not isinstance(item_id, int) or not isinstance(name, str) or name in exclude:
+            continue
+        if min_id <= item_id <= max_id:
+            return name
+    return ""
 
 
 def convert_characters(avatar_dir: Path, material_names: dict[int, str]) -> list[dict[str, Any]]:
@@ -708,6 +941,65 @@ def run_self_test() -> None:
         assert manual_with_snap_gacha.gacha_events == snap_gacha_events
     finally:
         shutil.rmtree(temp_manual)
+
+    temp_genshin_db = Path(".cache/self-test-genshin-db")
+    if temp_genshin_db.exists():
+        shutil.rmtree(temp_genshin_db)
+    try:
+        locale_dir = temp_genshin_db / "src" / "data" / "ChineseSimplified"
+        image_dir = temp_genshin_db / "src" / "data" / "image"
+        (locale_dir / "characters").mkdir(parents=True)
+        (locale_dir / "weapons").mkdir(parents=True)
+        (locale_dir / "materials").mkdir(parents=True)
+        image_dir.mkdir(parents=True)
+        write_json(
+            locale_dir / "characters" / "ayaka.json",
+            {
+                "id": 10000002,
+                "name": "神里绫华",
+                "elementText": "冰",
+                "weaponText": "单手剑",
+                "rarity": 5,
+                "region": "稻妻",
+                "costs": {"ascend6": [{"id": 113023, "name": "恒常机关之心", "count": 20}]},
+            },
+        )
+        write_json(
+            locale_dir / "weapons" / "mistsplitterreforged.json",
+            {
+                "id": 11502,
+                "name": "雾切之回光",
+                "weaponText": "单手剑",
+                "rarity": 5,
+                "mainStatText": "暴击伤害",
+                "costs": {"ascend6": [{"id": 114003, "name": "远海夷地的瑚枝", "count": 6}]},
+            },
+        )
+        write_json(
+            locale_dir / "materials" / "perpetualheart.json",
+            {
+                "id": 113023,
+                "name": "恒常机关之心",
+                "typeText": "角色培养素材",
+                "description": "恒常机关阵列掉落的核心。",
+            },
+        )
+        write_json(image_dir / "characters.json", {"ayaka": {"filename_icon": "UI_AvatarIcon_Ayaka", "filename_sideIcon": "UI_AvatarIcon_Side_Ayaka"}})
+        write_json(image_dir / "weapons.json", {"mistsplitterreforged": {"filename_icon": "UI_EquipIcon_Sword_Narukami"}})
+        write_json(image_dir / "materials.json", {"perpetualheart": {"filename_icon": "UI_ItemIcon_113023"}})
+
+        genshin_payload = build_genshin_db_payload(
+            temp_genshin_db,
+            gacha_events=[{"name": "Snap 卡池", "type": 301}],
+            announcements=empty_announcements("2026-06-29T00:00:00Z"),
+        )
+        assert genshin_payload.source == "genshin-db"
+        assert genshin_payload.characters[0]["iconURL"].endswith("/UI_AvatarIcon_Ayaka.png")
+        assert genshin_payload.weapons[0]["iconURL"].endswith("/UI_EquipIcon_Sword_Narukami.png")
+        assert genshin_payload.materials[0]["iconURL"].endswith("/UI_ItemIcon_113023.png")
+        assert genshin_payload.gacha_events[0]["name"] == "Snap 卡池"
+    finally:
+        shutil.rmtree(temp_genshin_db)
 
 
 def read_json(path: Path) -> Any:
