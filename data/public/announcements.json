@@ -251,56 +251,6 @@
       "type": "活动公告"
     },
     {
-      "banner": "https://sdk-webstatic.mihoyo.com/upload/ann/2026/05/26/c2a3b8cc3cf10224c248a781325ce2e3_5629417702843428147_transformed.jpg",
-      "contentURL": "",
-      "endTime": "2026-06-30 14:59:59",
-      "id": "21701",
-      "startTime": "2026-06-03 12:00:00",
-      "subtitle": "「霜锋夜白」祈愿",
-      "title": "「霜锋夜白」祈愿：「恣锐锋镞·洛恩(冰)」概率UP！",
-      "type": "活动公告"
-    },
-    {
-      "banner": "https://sdk-webstatic.mihoyo.com/upload/ann/2026/05/26/e92b6dbc10613a757f7c775919ae346c_5720336689852618885_transformed.jpg",
-      "contentURL": "",
-      "endTime": "2026-06-30 14:59:59",
-      "id": "21702",
-      "startTime": "2026-06-03 12:00:00",
-      "subtitle": "「宿古的赫炎」祈愿",
-      "title": "「宿古的赫炎」祈愿：「焚夜以炎·玛薇卡(火)」概率UP！",
-      "type": "活动公告"
-    },
-    {
-      "banner": "https://sdk-webstatic.mihoyo.com/upload/ann/2026/05/26/f648f6212812b4aa1f5fbf53409470a2_3354070259740915076_transformed.jpg",
-      "contentURL": "",
-      "endTime": "2026-06-30 14:59:59",
-      "id": "21703",
-      "startTime": "2026-06-03 12:00:00",
-      "subtitle": "「神铸赋形」祈愿",
-      "title": "「神铸赋形」祈愿：「长柄武器·灾悔」「双手剑·焚曜千阳」概率UP！",
-      "type": "活动公告"
-    },
-    {
-      "banner": "https://sdk-webstatic.mihoyo.com/upload/ann/2026/05/26/6862907c0102b224940f9d38ce2789f2_8971102166664904507_transformed.jpg",
-      "contentURL": "",
-      "endTime": "2026-06-30 14:59:59",
-      "id": "21704",
-      "startTime": "2026-06-03 12:00:00",
-      "subtitle": "「狡兔之章」",
-      "title": "「狡兔之章」时限内完成传说任务，可额外获得原石、角色突破素材等奖励",
-      "type": "活动公告"
-    },
-    {
-      "banner": "https://sdk-webstatic.mihoyo.com/upload/ann/2026/05/07/fc3125591be087e07d055eac80e07f3e_2009005969921407207_transformed.jpg",
-      "contentURL": "",
-      "endTime": "2026-06-30 14:59:59",
-      "id": "21694",
-      "startTime": "2026-05-18 12:00:00",
-      "subtitle": "「身土坏空，五蕴识转」",
-      "title": "「身土坏空，五蕴识转」时限内完成魔神任务，可额外获得原石、角色突破素材等奖励",
-      "type": "活动公告"
-    },
-    {
       "banner": "https://sdk-webstatic.mihoyo.com/upload/ann/2026/05/07/4af8215d384860aa4e420ae8c19e6162_2877243226386087466_transformed.jpg",
       "contentURL": "",
       "endTime": "2026-07-01 07:00:00",
@@ -308,16 +258,6 @@
       "startTime": "2026-05-18 12:00:00",
       "subtitle": "「胜过白银与精金」",
       "title": "「胜过白银与精金」世界任务说明",
-      "type": "活动公告"
-    },
-    {
-      "banner": "https://sdk-webstatic.mihoyo.com/upload/ann/2026/05/07/3ac655c9de67e66b85bd655de4b7a73e_7567212456183810677_transformed.jpg",
-      "contentURL": "",
-      "endTime": "2026-06-30 14:59:59",
-      "id": "21697",
-      "startTime": "2026-05-18 12:00:00",
-      "subtitle": "「魔导·绮想交奏之诗」",
-      "title": "「魔导·绮想交奏之诗」：千音雅集更新",
       "type": "活动公告"
     },
     {
@@ -338,16 +278,6 @@
       "startTime": "2026-05-16 12:00:00",
       "subtitle": "「砺行修远」",
       "title": "「砺行修远」：勤修馈赠",
-      "type": "活动公告"
-    },
-    {
-      "banner": "https://sdk-webstatic.mihoyo.com/upload/ann/2026/03/25/20a56d09e3474cf21341934346e4c7fe_5147820566116486125_transformed.jpg",
-      "contentURL": "",
-      "endTime": "2026-06-30 14:59:59",
-      "id": "21636",
-      "startTime": "2026-04-06 12:00:00",
-      "subtitle": "「千风凝滞之隙」",
-      "title": "「千风凝滞之隙」时限内完成探索任务，可额外获得原石*400奖励",
       "type": "活动公告"
     },
     {
@@ -422,5 +352,5 @@
     }
   ],
   "schemaVersion": 1,
-  "updatedAt": "2026-06-30T06:32:44Z"
+  "updatedAt": "2026-06-30T10:36:45Z"
 }
