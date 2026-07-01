@@ -3,7 +3,7 @@
     {
       "kind": "metadata",
       "path": "metadata.json",
-      "sha256": "2b081d913925d218272d90446a77d2f93107a514bd5e8ca0fa7da05236ac49f5"
+      "sha256": "e45727ce88211c0113b62b2b3decdc59dc5df3811ee2a9cbafb336a57aad0ff0"
     },
     {
       "kind": "characters",
@@ -33,14 +33,14 @@
     {
       "kind": "latest",
       "path": "latest.json",
-      "sha256": "f999ac5b3224c1494c7ba348aaced694ccf224b7c86d0a2cdd9a7ff51e579e69"
+      "sha256": "d5201cddbc26508ceddc47868f5fb5c4725c73f276bec5b55ae5e13fa0528ec5"
     },
     {
       "kind": "announcements",
       "path": "announcements.json",
-      "sha256": "c78b524f9c9df66c13f91cece34b515d32ac7e63762cd75eecc9f097550d26c3"
+      "sha256": "f7d50e8c8523c847e65dc15934ca4698a8cfad7cf2bcc3d35b4a2b00edf3c471"
     }
   ],
-  "generatedAt": "2026-07-01T00:21:29Z",
+  "generatedAt": "2026-07-01T05:54:24Z",
   "schemaVersion": 1
 }

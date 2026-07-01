@@ -21,11 +21,21 @@
       "type": "游戏公告"
     },
     {
+      "banner": "https://sdk-webstatic.mihoyo.com/announcement/2020/11/11/a539394edc88c73effd030507be02681_8843944720719944518.jpg",
+      "contentURL": "",
+      "endTime": "2026-08-12 06:00:00",
+      "id": "21797",
+      "startTime": "2026-07-01 08:00:00",
+      "subtitle": "更新内容汇总",
+      "title": "游戏更新修复与优化说明",
+      "type": "游戏公告"
+    },
+    {
       "banner": "https://sdk-webstatic.mihoyo.com/upload/ann/2023/01/31/ab26bd549f42e9994d6946ae0f286b2e_6457522219866312059.jpg",
       "contentURL": "",
-      "endTime": "2026-07-01 12:00:00",
-      "id": "21747",
-      "startTime": "2026-06-01 12:00:01",
+      "endTime": "2026-08-01 12:00:00",
+      "id": "21783",
+      "startTime": "2026-07-01 12:00:01",
       "subtitle": "「每日签到」有奖活动",
       "title": "米游社原神区「每日签到」有奖活动开启 ",
       "type": "游戏公告"
@@ -292,5 +302,5 @@
     }
   ],
   "schemaVersion": 1,
-  "updatedAt": "2026-07-01T00:21:29Z"
+  "updatedAt": "2026-07-01T05:54:24Z"
 }
