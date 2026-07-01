@@ -1,13 +1,23 @@
 {
   "items": [
     {
-      "banner": "https://sdk-webstatic.mihoyo.com/upload/ann/2026/06/23/b19883fa2d3942162cc4bbd6fb547124_8463377646659244126_transformed.jpg",
+      "banner": "",
       "contentURL": "",
-      "endTime": "2026-07-01 07:00:00",
-      "id": "21780",
-      "startTime": "2026-06-29 11:10:00",
-      "subtitle": "「月之八」版本更新维护预告",
-      "title": "「月之八」版本更新维护预告",
+      "endTime": "2026-08-12 06:00:00",
+      "id": "21788",
+      "startTime": "2026-07-01 07:00:00",
+      "subtitle": "「月之八」版本现已开启",
+      "title": "全新内容一览：地区·角色·祈愿·武器·衣装·剧情等",
+      "type": "游戏公告"
+    },
+    {
+      "banner": "https://sdk-webstatic.mihoyo.com/upload/ann/2026/06/15/5b08bcdcb9fcbd89c3626fa31f09d270_41779795138763876_transformed.jpg",
+      "contentURL": "",
+      "endTime": "2026-08-12 06:00:00",
+      "id": "21766",
+      "startTime": "2026-07-01 07:00:00",
+      "subtitle": "「月之八」版本更新说明",
+      "title": "「『空月之歌·谐谑』映夏！归乡？千灵节！」「月之八」版本更新说明",
       "type": "游戏公告"
     },
     {
@@ -221,26 +231,6 @@
       "type": "活动公告"
     },
     {
-      "banner": "https://sdk-webstatic.mihoyo.com/upload/ann/2026/05/07/4af8215d384860aa4e420ae8c19e6162_2877243226386087466_transformed.jpg",
-      "contentURL": "",
-      "endTime": "2026-07-01 07:00:00",
-      "id": "21695",
-      "startTime": "2026-05-18 12:00:00",
-      "subtitle": "「胜过白银与精金」",
-      "title": "「胜过白银与精金」世界任务说明",
-      "type": "活动公告"
-    },
-    {
-      "banner": "https://sdk-webstatic.mihoyo.com/upload/ann/2024/09/19/555e97a23cedc7a1ad9efc0aefb47a72_8932950755834038243.png",
-      "contentURL": "",
-      "endTime": "2026-07-01 07:00:00",
-      "id": "20745",
-      "startTime": "2026-05-18 12:00:00",
-      "subtitle": "「七圣召唤」铸境研炼",
-      "title": "「七圣召唤」铸境研炼：巧策进斗",
-      "type": "活动公告"
-    },
-    {
       "banner": "https://sdk-webstatic.mihoyo.com/upload/ann/2026/04/14/9d9818e0badc0b90e9c6d7e10a9023ce_7847788824228246612_transformed.png",
       "contentURL": "",
       "endTime": "2026-08-10 03:59:59",
@@ -299,28 +289,8 @@
       "subtitle": "「绮衣珍赏·暄和」",
       "title": "「绮衣珍赏·暄和」参与获得自选奇偶装扮套装「悠暇梦夏」一套",
       "type": "千星奇域"
-    },
-    {
-      "banner": "https://sdk-webstatic.mihoyo.com/upload/ann/2026/05/11/5579f0481705fe1715789c31c8f55230_4904625013664315921_transformed.jpg",
-      "contentURL": "",
-      "endTime": "2026-07-01 07:00:00",
-      "id": "21690",
-      "startTime": "2026-05-18 12:00:00",
-      "subtitle": "「斑彩赛季」",
-      "title": "「斑彩赛季」赛季开启公告说明",
-      "type": "千星奇域"
-    },
-    {
-      "banner": "https://sdk-webstatic.mihoyo.com/upload/ann/2026/05/11/46db25fe3b2fd5865de1f85075d57ab6_3813976230261816053_transformed.jpg",
-      "contentURL": "",
-      "endTime": "2026-07-01 07:00:00",
-      "id": "21687",
-      "startTime": "2026-05-18 12:00:00",
-      "subtitle": "「绮衣珍赏·汇涌」",
-      "title": "「绮衣珍赏·汇涌」参与获得自选奇偶装扮套装「溅彩画家」一套",
-      "type": "千星奇域"
     }
   ],
   "schemaVersion": 1,
-  "updatedAt": "2026-06-30T22:39:46Z"
+  "updatedAt": "2026-07-01T00:21:29Z"
 }
