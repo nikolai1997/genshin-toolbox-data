@@ -24,7 +24,7 @@
       "banner": "https://sdk-webstatic.mihoyo.com/announcement/2020/11/11/a539394edc88c73effd030507be02681_8843944720719944518.jpg",
       "contentURL": "",
       "endTime": "2026-08-12 06:00:00",
-      "id": "21797",
+      "id": "21800",
       "startTime": "2026-07-01 08:00:00",
       "subtitle": "更新内容汇总",
       "title": "游戏更新修复与优化说明",
@@ -302,5 +302,5 @@
     }
   ],
   "schemaVersion": 1,
-  "updatedAt": "2026-07-01T05:54:24Z"
+  "updatedAt": "2026-07-01T12:48:43Z"
 }
